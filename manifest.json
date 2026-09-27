@@ -3,7 +3,7 @@
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 7,
+      "pagini": 9,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -35,7 +35,7 @@
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 7,
+      "pagini": 8,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -65,7 +65,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 7,
+      "pagini": 8,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -95,7 +95,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 7,
+      "pagini": 8,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -125,7 +125,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 7,
+      "pagini": 9,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
