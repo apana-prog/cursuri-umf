@@ -122,6 +122,38 @@
       "amprente": {
         "ro": {}
       }
+    },
+    {
+      "cod": "SPM_BFKIII",
+      "pagini": 7,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Balneofiziokinetoterapie și recuperare, anul III",
+        "en": "Physiotherapy and Rehabilitation, Year III"
+      },
+      "afirmatii_publicate": 0,
+      "titlu": {
+        "ro": "Sănătate publică și management",
+        "en": "Public Health and Management"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 8,
+      "amprente": {
+        "ro": {}
+      }
     }
   ],
   "generator": "atelier-didactic/build_site.py"
