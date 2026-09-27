@@ -1,0 +1,128 @@
+{
+  "construit": "2026-09-27",
+  "discipline": [
+    {
+      "cod": "SPM_AMGIV",
+      "pagini": 7,
+      "widgets": 5,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Asistență medicală generală, anul IV",
+        "en": "General Nursing, Year IV"
+      },
+      "afirmatii_publicate": 3,
+      "titlu": {
+        "ro": "Sănătate publică și management",
+        "en": "Public Health and Management"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 14,
+      "amprente": {
+        "ro": {}
+      }
+    },
+    {
+      "cod": "OPT_PLIC",
+      "pagini": 7,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Medicină, anul IV — disciplină opțională"
+      },
+      "afirmatii_publicate": 0,
+      "titlu": {
+        "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Disciplina urmărește formarea unui cadru analitic integrat privind corupția în sistemul de sănătate, combinând perspectiva metrologică, empirică, etică, juridică și de politici publice. La finalul cursului, studentul de anul IV va putea spune, despre orice cifră publicată privind corupția în sănătate, ce măsoară exact, pe ce populație, în ce an și cu ce marjă de eroare; va cunoaște cadrul legal de raportare disponibil medicului practician în România, cu termenele exacte; și va dispune de formulări exersate pentru refuzul plăților informale fără compromiterea relației terapeutice.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 7,
+      "amprente": {
+        "ro": {}
+      }
+    },
+    {
+      "cod": "OPT_DROGURI",
+      "pagini": 7,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Medicină, anul III — disciplină opțională"
+      },
+      "afirmatii_publicate": 0,
+      "titlu": {
+        "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 7,
+      "amprente": {
+        "ro": {}
+      }
+    },
+    {
+      "cod": "OPT_DETECTIVI",
+      "pagini": 7,
+      "widgets": 1,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Medicină, anul II — disciplină opțională"
+      },
+      "afirmatii_publicate": 1,
+      "titlu": {
+        "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 7,
+      "amprente": {
+        "ro": {}
+      }
+    }
+  ],
+  "generator": "atelier-didactic/build_site.py"
+}

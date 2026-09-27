@@ -1,0 +1,113 @@
+/* instrumente.css — stilurile instrumentelor interactive (active/widgets/*.js).
+ * Se încarcă după atelier.css. Folosește numai variabilele definite acolo (nicio culoare
+ * scrisă direct), deci urmează automat modul luminos și cel întunecat.
+ * Culorile seriilor vin din JS ca var(--s1)…var(--s8); textul poartă numai --ink, --ink-2, --muted. */
+
+/* ---------- cadrul ---------- */
+.widget .w-mesaje:empty { display: none; }
+.widget .w-mesaj {
+  margin: .3rem 0; padding: .35rem .6rem; border-radius: 6px;
+  background: var(--tint-yellow); color: var(--ink); font-size: .8rem;
+}
+.widget .w-mesaj::before { content: "\26A0\FE0E"; margin-right: .4rem; color: var(--ink-2); }
+.widget .w-nota { font-size: .78rem; color: var(--ink-2); margin: .3rem 0 .5rem; }
+.widget .zona-grafic { margin: .3rem 0 .2rem; }
+.widget .concluzie[hidden] { display: none; }
+
+/* ---------- cursoare ---------- */
+.widget .w-cursor-cap { display: flex; justify-content: space-between; align-items: baseline; gap: .2rem .6rem; flex-wrap: wrap; }
+.widget .w-cursor input[type="range"] { margin: .15rem 0 0; min-height: 1.5rem; }
+
+/* ---------- textul din SVG ---------- */
+.widget .grafic.w-g text { font-size: var(--w-font, 11px); }
+.widget .grafic.w-g text.t-mic { font-size: calc(var(--w-font, 11px) * .9); }
+.widget .grafic .t-mut { fill: var(--muted); font-variant-numeric: tabular-nums; }
+.widget .grafic .t-et { fill: var(--ink-2); }
+.widget .grafic .t-val { fill: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.widget .grafic .t-titlu-axa { fill: var(--ink-2); font-weight: 600; }
+.widget .grafic:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+/* ---------- marcaje ---------- */
+/* SVG-ul se scalează cu containerul; liniile își păstrează grosimea în pixeli de ecran
+   (2px pentru serii, 1px pentru grilă și axe). Razele, barele și golurile sunt convertite
+   în JS din pixeli de ecran în unități SVG (g.px). */
+.widget .grafic.w-g line, .widget .grafic.w-g path { vector-effect: non-scaling-stroke; }
+.widget .grafic .w-linie { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.widget .grafic .w-linie.w-atenuata { stroke-opacity: .4; }
+.widget .grafic .w-arie { fill-opacity: .1; stroke: none; }
+.widget .grafic .w-referinta { fill: none; stroke: var(--ink-2); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.widget .grafic .w-crosshair { stroke: var(--muted); stroke-width: 1; }
+.widget .grafic .w-inel { fill: var(--surface); }
+.widget .grafic .w-banda { fill: var(--surface-2); }
+.widget .grafic .w-atenuat { fill: var(--muted); fill-opacity: .45; }
+.widget .grafic .w-contur { fill: none; stroke: var(--ink-2); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.widget .grafic .w-zona-ce { fill: var(--tint-green); }
+.widget .grafic .w-axa0 { stroke: var(--muted); stroke-width: 1; }
+.widget .grafic .w-zero { stroke: var(--axis); stroke-width: 1; }
+/* adevărat negativii din grila de pictograme: gri de context, nu culoare de serie */
+.widget .grafic .w-neutru { fill: var(--muted); fill-opacity: .4; }
+.widget .grafic .w-cat { transition: opacity .15s ease; }
+.widget .grafic .w-estompat { opacity: .25; }
+
+/* ---------- tooltip ---------- */
+.widget .tooltip.w-tt { white-space: normal; max-width: min(20rem, calc(100% - 8px)); line-height: 1.35; }
+.widget .w-tt .tt-antet { font-weight: 600; color: var(--ink); margin-bottom: .2rem; }
+.widget .w-tt .tt-rand { display: flex; align-items: baseline; gap: .4rem; }
+.widget .w-tt .tt-cheie { flex: none; width: .75rem; height: 3px; border-radius: 2px; align-self: center; }
+.widget .w-tt .tt-cheie.tt-gol { background: transparent; }
+.widget .w-tt .tt-val { font-weight: 650; color: var(--ink); font-variant-numeric: tabular-nums; }
+.widget .w-tt .tt-et { color: var(--ink-2); }
+
+/* ---------- legendă ---------- */
+.widget .legenda .mostra { flex: none; }
+.widget .legenda .mostra.m-linie { width: 1rem; height: 3px; border-radius: 2px; }
+.widget .legenda .mostra.m-cerc { border-radius: 50%; }
+.widget .legenda .mostra.m-contur { background: transparent; border: 2px solid; border-radius: 2px; }
+.widget .legenda .mostra.m-zona { border: 1px solid var(--axis); }
+.widget .legenda .mostra.m-neutru { opacity: .4; }
+.widget .legenda .mostra.m-prag { width: 1.1rem; height: 0; border-radius: 0; background: transparent !important; border-top: 2px dashed var(--ink-2); }
+.widget .legenda button.cheie { min-height: 1.75rem; padding: .15rem .1rem; text-align: left; }
+
+/* ---------- tabele ---------- */
+.widget .w-tabel caption { caption-side: top; text-align: left; font-size: .78rem; color: var(--ink-2); padding: 0 0 .35rem; }
+.widget .w-tabel th, .widget .w-tabel td { padding: .3rem .55rem; }
+.widget .w-tabel tfoot th, .widget .w-tabel tfoot td { font-weight: 600; border-top: 1px solid var(--axis); }
+.widget .w-editabil input[type="number"] { width: 7.5em; text-align: right; padding: .2rem .35rem; }
+.widget .w-abrev { font-size: .72rem; color: var(--muted); margin-right: .15rem; }
+.widget .w-tare { font-weight: 600; }
+.widget .w-date { max-height: 26rem; overflow-y: auto; }
+
+/* ---------- selectorul de an (piramida) ---------- */
+.widget .w-ani { display: flex; flex-wrap: wrap; gap: .35rem; margin: .2rem 0 .6rem; }
+.widget .w-buton-an {
+  font: inherit; font-size: .85rem; min-height: 2rem; padding: .2rem .75rem; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--axis); background: var(--surface); color: var(--ink-2); font-variant-numeric: tabular-nums;
+}
+.widget .w-buton-an[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); font-weight: 600; }
+
+/* ---------- predicție („Prezice, apoi verifică”) ---------- */
+.widget .grafic.w-desen { touch-action: none; cursor: crosshair; -webkit-user-select: none; user-select: none; }
+.widget .grafic .w-zona-desen { fill: var(--gold-tint); }
+.widget .grafic .w-linie-estimare { stroke-dasharray: 7 5; }
+.widget .grafic .w-indiciu { fill: var(--gold); font-weight: 700; letter-spacing: .02em; }
+.widget .w-actiuni { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin: .8rem 0 .2rem; }
+.widget .w-actiuni .w-nota { margin: 0; }
+.widget .w-actiuni .buton[hidden] { display: none; }
+.widget .w-campuri { margin: .8rem 0 .2rem; font-size: .85rem; }
+.widget .w-campuri summary { cursor: pointer; font-weight: 600; color: var(--ink-2); }
+.widget .w-campuri .controale { margin-top: .6rem; grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr)); }
+
+/* ---------- clasament (comutator de indicator, rânduri animate) ---------- */
+.widget .w-segmentat { display: inline-flex; flex-wrap: wrap; gap: .25rem; padding: .25rem; margin: .2rem 0 .9rem;
+  background: var(--surface-2); border-radius: 999px; }
+.widget .w-segmentat button { font: inherit; font-size: .86rem; font-weight: 600; border: 0; border-radius: 999px; cursor: pointer;
+  padding: .45rem .95rem; background: transparent; color: var(--ink-2); min-height: 2.1rem; }
+.widget .w-segmentat button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--umbra-1); }
+/* pe ecran îngust, opțiunile nu mai încap pe un rând: se așază una sub alta, pe toată lățimea,
+   în loc să rupă „pastila” într-o formă neregulată */
+@media (max-width: 34rem) {
+  .widget .w-segmentat { display: grid; grid-template-columns: 1fr; width: 100%; border-radius: var(--r-sm); }
+  .widget .w-segmentat button { border-radius: calc(var(--r-sm) - .15rem); text-align: left; }
+}
+.widget .grafic .w-bara-cl { transform-box: fill-box; transform-origin: 0 50%; }
+.widget .grafic .w-rang { font-weight: 700; }
