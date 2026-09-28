@@ -934,3 +934,70 @@ a.nota-marg:hover { color: var(--ink); }
 /* Antetul e acoperit de scroll-padding-top (pe html); marginea de aici se ADAUGĂ la el și acoperă numai bara filelor,
    lipită sub antet. Cele două nu se cumulează cu încă o înălțime de antet: titlul ar ajunge la 228 px de sus. */
 .pagina-unitate .proza h2, .pagina-unitate .bloc, .pagina-unitate [id^="sursa-"], .pagina-unitate .surse-pagina { scroll-margin-top: 4.5rem; }
+
+/* ================================================================== tema editorială
+ * Decizia titularului (27.09.2026): situl arată ca decurile lui proiectate (de ex. „Câte vieți costă un
+ * plic?”): antete pe fond cerneală #11121A, accente coral, linia turcoaz sub titlu, Palatino, etichete în
+ * majuscule rare. Jetoanele de mai sus rămân numele stabile; aici li se dau valorile temei. */
+:root {
+  --page: #f6f5f2; --surface: #ffffff; --surface-2: #eceae4; --surface-3: #e2dfd7;
+  --ink: #11121a; --ink-2: #474954; --muted: #585a64; --grid: #e2dfd7; --axis: #c9c6bd;
+  --border: rgba(17, 18, 26, .10); --border-strong: rgba(17, 18, 26, .20);
+  --brand: #b02532; --brand-2: #d63a45; --brand-ink: #2e060b; --brand-tint: #f9e3e4; --brand-tint-2: #f2c9cc;
+  --accent: #0e7c6b; --accent-tint: #ddf3ef; --gold: #8a6100; --gold-tint: #faf0d6;
+  --link: #b02532; --focus: #0e7c6b;
+  --m1: #b02532; --m1-tint: #f9e3e4; --m1-soft: #eba2a8;
+  --m2: #0e7c6b; --m2-tint: #ddf3ef; --m2-soft: #8fd6c8;
+  --m3: #4a2d8c; --m3-tint: #ece6f8; --m3-soft: #b7a5e3;
+  --m4: #8a6100; --m4-tint: #faf0d6; --m4-soft: #e5c46e;
+  --cerneala: #11121a; --cerneala-2: #1d1f2b; --coral: #ff4757; --turcoaz: #27d3be;
+  --serif: "Palatino Linotype", Palatino, "Book Antiqua", "Atelier Serif", Georgia, serif;
+  --sans: "Palatino Linotype", Palatino, "Book Antiqua", "Atelier Serif", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #11121a; --surface: #1d1f2b; --surface-2: #25283a; --surface-3: #2e3246;
+    --ink: #f6f5f2; --ink-2: #c9cbd6; --muted: #959bb0; --grid: #2e3246; --axis: #4a4e63;
+    --border: rgba(255, 255, 255, .10); --border-strong: rgba(255, 255, 255, .20);
+    --brand: #ff4757; --brand-2: #ff6b78; --brand-ink: #ffe3e5; --brand-tint: #3a1a20; --brand-tint-2: #52222b;
+    --accent: #27d3be; --accent-tint: #123a36; --gold: #ffc24b; --gold-tint: #3a2e10;
+    --link: #ff7a85; --focus: #27d3be;
+    --m1: #ff4757; --m1-tint: #3a1a20; --m1-soft: #8c2f38; --m2: #27d3be; --m2-tint: #123a36; --m2-soft: #1f7f73;
+    --m3: #9b7fe0; --m3-tint: #2a2140; --m3-soft: #5c4a8f; --m4: #ffc24b; --m4-tint: #3a2e10; --m4-soft: #8a6b22;
+  }
+  :root:not([data-theme="light"]) .buton, :root:not([data-theme="light"]) .buton:hover { color: #2e060b; }
+}
+:root[data-theme="dark"] {
+  --page: #11121a; --surface: #1d1f2b; --surface-2: #25283a; --surface-3: #2e3246;
+  --ink: #f6f5f2; --ink-2: #c9cbd6; --muted: #959bb0; --grid: #2e3246; --axis: #4a4e63;
+  --border: rgba(255, 255, 255, .10); --border-strong: rgba(255, 255, 255, .20);
+  --brand: #ff4757; --brand-2: #ff6b78; --brand-ink: #ffe3e5; --brand-tint: #3a1a20; --brand-tint-2: #52222b;
+  --accent: #27d3be; --accent-tint: #123a36; --gold: #ffc24b; --gold-tint: #3a2e10;
+  --link: #ff7a85; --focus: #27d3be;
+  --m1: #ff4757; --m1-tint: #3a1a20; --m1-soft: #8c2f38; --m2: #27d3be; --m2-tint: #123a36; --m2-soft: #1f7f73;
+  --m3: #9b7fe0; --m3-tint: #2a2140; --m3-soft: #5c4a8f; --m4: #ffc24b; --m4-tint: #3a2e10; --m4-soft: #8a6b22;
+}
+:root[data-theme="dark"] .buton, :root[data-theme="dark"] .buton:hover { color: #2e060b; }
+body { font-family: var(--serif); }
+.eticheta-sus { font-family: var(--serif); font-size: .74rem; letter-spacing: .22em; color: var(--brand); }
+/* antetele: ca diapozitivul de titlu */
+.erou, .erou-unitate { background: var(--cerneala); color: #e6e7ee; border-bottom: 0; }
+.erou::before, .erou-unitate::before { display: none; }
+.erou h1, .erou-unitate h1 { color: #fff; }
+.erou h1 { text-transform: uppercase; letter-spacing: .01em; }
+.erou h1::after, .erou-unitate h1::after { content: ""; display: block; width: 5.5rem; height: 4px; margin-top: 1.1rem;
+  background: var(--turcoaz); border-radius: 2px; }
+.erou .eticheta-sus, .erou-unitate .eticheta-sus { color: var(--coral); }
+.erou-lead, .erou-text p { color: #c9cbd6; }
+.erou a:not(.buton):not(.buton-contur), .erou-unitate a:not(.buton):not(.buton-contur) { color: #ffb3ba; }
+.erou-unitate .firimituri, .erou-unitate .firimituri a, .erou-unitate .firimituri span { color: #a6adc2; }
+.erou-unitate .meta-unitate li { background: rgba(255, 255, 255, .07); color: #e6e7ee; border-color: rgba(255, 255, 255, .14); }
+.erou-unitate .aviz { background: #25283a; color: #e6e7ee; border-color: rgba(255, 255, 255, .14); }
+.erou .buton-contur, .erou-unitate .buton-contur { color: #fff; border-color: rgba(255, 255, 255, .45); }
+h2 { letter-spacing: -0.005em; }
+/* prezentarea din browser = decul proiectat (imagini) */
+body.prezentare-imagini .diapozitiv.imagine { padding: 0; background: #000; }
+body.prezentare-imagini .diapozitiv.imagine::before { display: none; }
+body.prezentare-imagini .diapozitiv.imagine img { width: 100%; height: 100%; object-fit: contain; display: block; }
+body.prezentare-imagini .diapozitiv.imagine .nr { display: none; }
+body.prezentare-imagini .ansamblu button img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 6px; margin-bottom: .4rem; }
