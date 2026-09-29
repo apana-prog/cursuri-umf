@@ -1,9 +1,9 @@
 {
-  "construit": "2026-09-28",
+  "construit": "2026-09-29",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 9,
+      "pagini": 10,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 3,
+      "afirmatii_publicate": 80,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,10 +27,13 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 2,
       "unitati_total": 14,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "5fcbe05d83e9175b",
+          "LP01": "59783f94ac70b49b"
+        }
       }
     },
     {
@@ -44,7 +47,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 0,
+      "afirmatii_publicate": 7,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -57,10 +60,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 1,
       "unitati_total": 7,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "7e74c17661ef0773"
+        }
       }
     },
     {
