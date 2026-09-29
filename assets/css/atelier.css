@@ -1001,3 +1001,16 @@ body.prezentare-imagini .diapozitiv.imagine::before { display: none; }
 body.prezentare-imagini .diapozitiv.imagine img { width: 100%; height: 100%; object-fit: contain; display: block; }
 body.prezentare-imagini .diapozitiv.imagine .nr { display: none; }
 body.prezentare-imagini .ansamblu button img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 6px; margin-bottom: .4rem; }
+
+/* bibliografia disciplinei */
+.bibliografie { display: grid; gap: 1rem; }
+.biblio { margin: 0; padding-left: 1.3rem; }
+.biblio li { margin: 0 0 .75rem; line-height: 1.5; overflow-wrap: anywhere; }
+.biblio li a { font-size: .9em; }
+.biblio-acces { display: block; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted, #585A64); margin-top: .15rem; }
+
+/* ziua ședinței: diapozitivele cu răspunsuri, ascunse până după curs */
+.diapozitiv.ascuns .ascuns-mesaj { aspect-ratio: 16 / 9; width: 100%; display: flex; align-items: center; justify-content: center;
+  background: #11121A; color: #F6F5F2; font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif; font-size: clamp(1rem, 2.4vw, 1.6rem); }
+.diapozitiv.ascuns .ascuns-mesaj p { margin: 0; padding: 1rem; text-align: center; border-top: 3px solid #27D3BE; padding-top: 1.2rem; }
+.ascuns-mini { display: block; aspect-ratio: 16 / 9; background: #11121A; border-radius: 4px; }

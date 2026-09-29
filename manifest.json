@@ -3,7 +3,7 @@
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 10,
+      "pagini": 9,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 80,
+      "afirmatii_publicate": 15,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
