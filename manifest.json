@@ -1,5 +1,5 @@
 {
-  "construit": "2026-09-29",
+  "construit": "2026-09-30",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -79,7 +79,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 0,
+      "afirmatii_publicate": 35,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -92,10 +92,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 1,
       "unitati_total": 7,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "f4f9081423c4dde8"
+        }
       }
     },
     {
@@ -122,10 +124,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 1,
       "unitati_total": 7,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "45910f04c858c39b"
+        }
       }
     },
     {
@@ -140,7 +144,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 0,
+      "afirmatii_publicate": 22,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -154,10 +158,13 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 2,
       "unitati_total": 8,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "ab914949df2c6457",
+          "LP01": "f3d0416e3009739c"
+        }
       }
     }
   ],
