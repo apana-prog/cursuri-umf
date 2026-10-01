@@ -1,9 +1,9 @@
 {
-  "construit": "2026-09-30",
+  "construit": "2026-10-01",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 9,
+      "pagini": 11,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -38,7 +38,7 @@
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 8,
+      "pagini": 9,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
