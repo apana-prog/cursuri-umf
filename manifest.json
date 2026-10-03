@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-02",
+  "construit": "2026-10-03",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -79,7 +79,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 35,
+      "afirmatii_publicate": 174,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -111,7 +111,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 1,
+      "afirmatii_publicate": 127,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -134,7 +134,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 10,
+      "pagini": 11,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -144,7 +144,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 22,
+      "afirmatii_publicate": 89,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
