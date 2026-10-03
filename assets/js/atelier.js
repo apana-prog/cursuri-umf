@@ -7,7 +7,7 @@
  * Fiecare element <div class="widget" data-w="W003" data-tip="standardizare">
  * primește configurația din <script type="application/json" id="cfg-W003">.
  * ctx = {
- *   limba,               'ro' | 'en'
+ *   limba,               'ro' | 'en' | 'fr'
  *   t(dict),             alege textul limbii curente dintr-un {ro, en}
  *   fmt(x, zec),         număr formatat după limbă (ro: 74,6 și 1 200; en: 74.6 și 1,200)
  *   fmtProc(x, zec),     procent formatat (x = 0.456 → „45,6%”)
@@ -43,17 +43,17 @@
     var neg = x < 0 && /[1-9]/.test(s);   // −0,0 după rotunjire se scrie 0,0
     var parti = s.split('.');
     var intreg = parti[0], frac = parti[1];
-    var sep = limba === 'ro' ? ' ' : ',';
+    var sep = limba === 'ro' ? ' ' : (limba === 'fr' ? '\u202f' : ',');
     if (intreg.length > 3) {   // „1 075,0” ca în note (anii se scriu ca text, nu prin fmt)
       intreg = intreg.replace(/\B(?=(\d{3})+(?!\d))/g, sep);
     }
-    var r = frac ? intreg + (limba === 'ro' ? ',' : '.') + frac : intreg;
+    var r = frac ? intreg + (limba === 'ro' || limba === 'fr' ? ',' : '.') + frac : intreg;
     return (neg ? '−' : '') + r;
   }
 
   function fmtProc(x, zec) {
     if (x == null || isNaN(x)) return '—';
-    return fmt(x * 100, zec == null ? 1 : zec) + (limba === 'ro' ? '%' : '%');
+    return fmt(x * 100, zec == null ? 1 : zec) + (limba === 'fr' ? '\u202f%' : '%');
   }
 
   var stocare = {
@@ -125,8 +125,10 @@
         nod.textContent = '';
         nod.appendChild(el('p', null, limba === 'ro'
           ? 'Instrumentul interactiv nu s-a putut încărca. Textul din jur rămâne complet; reîncărcați pagina pentru a încerca din nou.'
-          : 'The interactive tool could not be loaded. The surrounding text is complete; reload the page to try again.'));
-        var b = el('button', { type: 'button', 'class': 'buton-contur buton-mic' }, limba === 'ro' ? 'Reîncarcă pagina' : 'Reload the page');
+          : (limba === 'fr'
+            ? 'L’outil interactif n’a pas pu être chargé. Le texte environnant est complet ; rechargez la page pour réessayer.'
+            : 'The interactive tool could not be loaded. The surrounding text is complete; reload the page to try again.')));
+        var b = el('button', { type: 'button', 'class': 'buton-contur buton-mic' }, limba === 'ro' ? 'Reîncarcă pagina' : (limba === 'fr' ? 'Recharger la page' : 'Reload the page'));
         b.addEventListener('click', function () { location.reload(); });
         nod.appendChild(b);
         nod.setAttribute('data-eroare', String(e && e.message || e));

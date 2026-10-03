@@ -840,6 +840,11 @@ body.prezentare { background: #0b0e12; overflow: hidden; }
 body.prezentare.inactiv .bara-prezentare { opacity: 0; }
 .bara-prezentare .titlu-prez { font-size: .85rem; font-weight: 600; opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .bara-prezentare .spatiu { flex: 1; }
+.bara-prezentare .bara-formular { background: #27D3BE; color: #0b0e12; }
+.bara-prezentare .bara-formular:hover { background: #5fe0d0; color: #0b0e12; }
+.actiune-formular { margin: 0 0 1.4rem; }
+.caseta-in-formular { padding-bottom: .1rem; border-style: dashed; box-shadow: none; }
+.caseta-in-formular .in-formular { display: flex; align-items: center; gap: .5rem; margin: 0 0 1.05em; font-family: var(--sans); color: var(--ink-2); }
 .bara-prezentare button, .bara-prezentare a { display: inline-flex; align-items: center; gap: .35rem; font: inherit; font-size: .8rem; font-weight: 600;
   background: rgba(255,255,255,.08); color: #e8ecf1; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: .38rem .7rem; cursor: pointer; text-decoration: none; }
 .bara-prezentare button:hover, .bara-prezentare a:hover { background: rgba(255,255,255,.16); color: #fff; }
@@ -993,7 +998,7 @@ body { font-family: var(--serif); }
 .erou-unitate .firimituri, .erou-unitate .firimituri a, .erou-unitate .firimituri span { color: #a6adc2; }
 .erou-unitate .meta-unitate li { background: rgba(255, 255, 255, .07); color: #e6e7ee; border-color: rgba(255, 255, 255, .14); }
 .erou-unitate .aviz { background: #25283a; color: #e6e7ee; border-color: rgba(255, 255, 255, .14); }
-.erou .buton-contur, .erou-unitate .buton-contur { color: #fff; border-color: rgba(255, 255, 255, .45); }
+.erou .buton-contur, .erou-unitate .buton-contur { color: #fff; background: transparent; border-color: rgba(255, 255, 255, .45); }
 h2 { letter-spacing: -0.005em; }
 /* prezentarea din browser = decul proiectat (imagini) */
 body.prezentare-imagini .diapozitiv.imagine { padding: 0; background: #000; }

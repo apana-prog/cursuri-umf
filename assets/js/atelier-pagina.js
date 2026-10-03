@@ -75,6 +75,70 @@
     note: { ro: 'Note', en: 'Notes' },
     recapitulare: { ro: 'Recapitulare', en: 'Review' }
   };
+  var TX_FR = {
+    "verifica": "Vérifier la réponse",
+    "din": "sur",
+    "intrebarea": "Question",
+    "corect": "Réponse correcte",
+    "gresit": "Réponse incorrecte",
+    "justificare": "Justification dans les notes :",
+    "cs": "une seule réponse correcte",
+    "cm": "de deux à quatre réponses correctes",
+    "certitudine": "Degré de certitude :",
+    "cert_scazut": "faible",
+    "cert_mediu": "moyen",
+    "cert_ridicat": "élevé",
+    "rezultat": "Résultat : {c} réponses correctes sur {n}",
+    "rez_tot": "Toutes les réponses sont correctes. Les notions de l’unité sont consolidées.",
+    "rez_sigur": "{k} réponse(s) incorrecte(s) donnée(s) avec une forte certitude : cela signale une confusion, non une lacune ; relisez les paragraphes indiqués.",
+    "rez_rest": "Relisez les paragraphes indiqués pour les réponses incorrectes, puis reprenez l’auto-évaluation.",
+    "reia": "Reprendre l’auto-évaluation",
+    "intoarce": "Retourner la fiche",
+    "stiu": "Je sais",
+    "repet": "À revoir",
+    "termen": "Terme",
+    "definitie": "Définition",
+    "indiciu": "Formulez la définition, puis retournez la fiche",
+    "fisa": "Fiche {i} sur {n} · boîte {c} sur 5",
+    "gata_cart": "Vous avez parcouru toutes les fiches de ce tour. Les fiches incertaines reviennent en premier la prochaine fois.",
+    "runda_noua": "Commencer un nouveau tour",
+    "vezi_note": "Voir dans les notes",
+    "marcheaza": "Marquer comme terminé",
+    "marcat": "Terminé",
+    "parcurs": "terminé",
+    "in_curs": "en cours",
+    "continua": "Continuer",
+    "tipareste": "Imprimer le relevé de progression",
+    "nume": "Nom (n’apparaît que sur le relevé imprimé)",
+    "stocare": "Ce navigateur ne permet pas de conserver la progression (fenêtre privée ou stockage bloqué).",
+    "copiat": "Code de citation copié : {c}",
+    "sursa": "Source",
+    "an_ref": "année de référence",
+    "verificat": "vérifié le",
+    "lista_surse": "Voir la notice complète",
+    "glosar": "Glossaire",
+    "in_glosar": "Ouvrir dans le glossaire",
+    "pas_urm": "Étape suivante",
+    "toti_pasii": "Toutes les étapes",
+    "pasi": "Étape {i} sur {n}",
+    "cauta_ph": "Rechercher dans les notes, le glossaire et les sources…",
+    "cauta_gol": "Aucun résultat pour cette recherche.",
+    "cauta_start": "Saisissez au moins deux caractères.",
+    "cauta_nav": "↑ ↓ pour sélectionner · Entrée pour ouvrir · Échap pour fermer",
+    "cauta_indisp": "L’index de recherche n’est pas disponible sur cette page.",
+    "cauta_incarc": "Chargement de l’index de recherche…",
+    "unitati_parcurse": "{k} unités disponibles terminées sur {n}",
+    "etape": "Étapes",
+    "unitatea": "Unité",
+    "autoeval": "Auto-évaluation",
+    "nicio_unitate": "Aucune unité n’est encore publiée dans ce module.",
+    "ceas_parcurs": "terminé",
+    "modul": "Module",
+    "pregatire": "Préparation",
+    "note": "Notes",
+    "recapitulare": "Révision"
+  };
+  for (var kfr in TX_FR) { if (TX[kfr]) TX[kfr].fr = TX_FR[kfr]; }
   function tx(k, v) {
     var s = A.t(TX[k]);
     if (v) s = s.replace(/\{([a-z]+)\}/g, function (m, c) { return v[c] != null ? String(v[c]) : m; });
@@ -760,11 +824,11 @@
   /* ---------------------------------------------------------------- citire cu voce tare */
   if ('speechSynthesis' in window) {
     toate('.caseta-narare').forEach(function (c) {
-      var b = el('button', { type: 'button', 'class': 'buton-contur buton-mic', text: L === 'ro' ? 'Citește cu voce tare' : 'Read aloud' });
+      var b = el('button', { type: 'button', 'class': 'buton-contur buton-mic', text: L === 'ro' ? 'Citește cu voce tare' : (L === 'fr' ? 'Lire à voix haute' : 'Read aloud') });
       b.addEventListener('click', function () {
         if (speechSynthesis.speaking) { speechSynthesis.cancel(); return; }
         var u = new SpeechSynthesisUtterance(c.textContent.replace(b.textContent, ''));
-        u.lang = L === 'ro' ? 'ro-RO' : 'en-GB';
+        u.lang = L === 'ro' ? 'ro-RO' : (L === 'fr' ? 'fr-FR' : 'en-GB');
         speechSynthesis.speak(u);
       });
       c.appendChild(b);

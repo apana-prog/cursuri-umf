@@ -3,7 +3,7 @@
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 11,
+      "pagini": 12,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 205,
+      "afirmatii_publicate": 154,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,18 +27,17 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 2,
+      "unitati_publicate": 1,
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "5fcbe05d83e9175b",
-          "LP01": "59783f94ac70b49b"
+          "C01": "fb0a761947ebd9a4"
         }
       }
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 9,
+      "pagini": 10,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -70,7 +69,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 9,
+      "pagini": 10,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -102,7 +101,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 9,
+      "pagini": 11,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -125,7 +124,7 @@
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 1,
-      "unitati_total": 7,
+      "unitati_total": 8,
       "amprente": {
         "ro": {
           "C01": "45910f04c858c39b"
@@ -144,7 +143,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 89,
+      "afirmatii_publicate": 84,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -158,12 +157,11 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 2,
+      "unitati_publicate": 1,
       "unitati_total": 8,
       "amprente": {
         "ro": {
-          "C01": "ab914949df2c6457",
-          "LP01": "f3d0416e3009739c"
+          "C01": "6126dae6557419ae"
         }
       }
     }
