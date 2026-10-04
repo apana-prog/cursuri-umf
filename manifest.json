@@ -165,6 +165,72 @@
           "C01": "6126dae6557419ae"
         }
       }
+    },
+    {
+      "cod": "EPS_I",
+      "pagini": 11,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Balneofiziokinetoterapie și recuperare, anul I",
+        "en": "Physiotherapy and Rehabilitation, Year I"
+      },
+      "afirmatii_publicate": 8,
+      "titlu": {
+        "ro": "Educație pentru sănătate",
+        "en": "Health Education"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Cum îi ajutați pe pacienți și pe comunități să învețe și să păstreze obiceiuri sănătoase: educația pentru sănătate în balneofiziokinetoterapie și recuperare, de la un singur pacient la un cartier întreg.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 1,
+      "unitati_total": 14,
+      "amprente": {
+        "ro": {
+          "C01": "32c35e545881c2f4"
+        }
+      }
+    },
+    {
+      "cod": "EPS_RI",
+      "pagini": 9,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Radiologie și imagistică, anul I",
+        "en": "Radiology and Medical Imaging, Year I"
+      },
+      "afirmatii_publicate": 0,
+      "titlu": {
+        "ro": "Educație pentru sănătate",
+        "en": "Health Education"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Cum îi ajutați pe pacienți și pe comunități să învețe și să păstreze obiceiuri sănătoase: educația pentru sănătate în radiologie și imagistică, de la un singur pacient la un cartier întreg.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 2,
+      "amprente": {
+        "ro": {}
+      }
     }
   ],
   "generator": "atelier-didactic/build_site.py"
