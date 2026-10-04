@@ -231,6 +231,48 @@
       "amprente": {
         "ro": {}
       }
+    },
+    {
+      "cod": "SPM_MGVI",
+      "pagini": 20,
+      "widgets": 4,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
+        "en": "„Iuliu Hațieganu” UMPh Cluj-Napoca, Faculty of Medicine",
+        "fr": "UMF « Iuliu Hațieganu » de Cluj-Napoca, Faculté de Médecine"
+      },
+      "program": {
+        "ro": "Medicină, anul VI",
+        "en": "Medicine, Year VI",
+        "fr": "Médecine, 6e année"
+      },
+      "afirmatii_publicate": 9,
+      "titlu": {
+        "ro": "Sănătate publică și management",
+        "en": "Public Health and Management",
+        "fr": "Santé publique et gestion"
+      },
+      "limbi": [
+        "ro",
+        "fr"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Note de curs, lucrări practice și instrumente interactive pentru disciplina Sănătate publică și management (Medicină, anul VI).",
+        "en": "Lecture notes, practical sessions and interactive tools for Public Health and Management (Medicine, Year VI).",
+        "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 3,
+      "unitati_total": 28,
+      "amprente": {
+        "ro": {},
+        "fr": {
+          "C01": "b15951cb87534663",
+          "LP01": "471756667390854a",
+          "C02": "2f577253983220ec"
+        }
+      }
     }
   ],
   "generator": "atelier-didactic/build_site.py"
