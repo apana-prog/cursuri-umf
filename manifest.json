@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-03",
+  "construit": "2026-10-04",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 154,
+      "afirmatii_publicate": 160,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,11 +27,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 1,
+      "unitati_publicate": 2,
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "fb0a761947ebd9a4"
+          "C01": "9fc0eb258692fadf",
+          "LP01": "377c89fc3280236e"
         }
       }
     },
