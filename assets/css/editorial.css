@@ -1,0 +1,628 @@
+/*
+ * Vizualizare editoriala — prototip inspirat de limbajul vizual CNSSP.
+ * Toate regulile sunt izolate sub data-view="editorial". Vizualizarea
+ * Atelier ramane astfel neschimbata si poate fi aleasa din antet.
+ */
+
+html[data-view="editorial"] {
+  color-scheme: light;
+  --page: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #eef0f7;
+  --surface-3: #e2e5f0;
+  --ink: #17172a;
+  --ink-2: #48495c;
+  --muted: #6d6f80;
+  --grid: #dfe2ec;
+  --axis: #b9becd;
+  --border: rgba(30, 29, 69, .12);
+  --border-strong: rgba(30, 29, 69, .24);
+  --brand: #24205f;
+  --brand-2: #383286;
+  --brand-ink: #24205f;
+  --brand-tint: #e7e7f4;
+  --brand-tint-2: #d7d8ee;
+  --accent: #138f7e;
+  --accent-tint: #e2f4f0;
+  --link: #24205f;
+  --focus: #16a48f;
+  --good: #16816f;
+  --good-text: #0d6e60;
+  --warning: #356ba6;
+  --critical: #aa2745;
+  --bad-text: #92243d;
+  --m1: #138f7e;
+  --m1-tint: #e2f4f0;
+  --m1-soft: #9bd8ce;
+  --m2: #356ba6;
+  --m2-tint: #e6eef8;
+  --m2-soft: #a9c5e5;
+  --m3: #6551a4;
+  --m3-tint: #ece9f7;
+  --m3-soft: #c3bae2;
+  --m4: #a32f57;
+  --m4-tint: #f7e7ed;
+  --m4-soft: #deaabd;
+  --disc-plic: #7b3f92; /* violet-pruna; inlocuieste ocrul */
+  --r: 5px;
+  --r-sm: 4px;
+  --r-xs: 3px;
+  --umbra-1: none;
+  --umbra-2: 0 12px 32px rgba(27, 26, 70, .10);
+  --antet-h: 5rem;
+}
+
+html[data-view="editorial"][data-theme="dark"] {
+  color-scheme: dark;
+  --page: #11121c;
+  --surface: #191a27;
+  --surface-2: #222433;
+  --surface-3: #2c2e40;
+  --ink: #f1f2f7;
+  --ink-2: #c4c6d1;
+  --muted: #9598a9;
+  --grid: #303244;
+  --axis: #46495e;
+  --border: rgba(255, 255, 255, .10);
+  --border-strong: rgba(255, 255, 255, .22);
+  --brand: #8f8be0;
+  --brand-2: #aaa7ef;
+  --brand-ink: #b8b5f5;
+  --brand-tint: #29284b;
+  --brand-tint-2: #363464;
+  --accent: #45c6b3;
+  --accent-tint: #143a35;
+  --link: #9cded4;
+  --focus: #5ed9c6;
+  --m1: #45c6b3; --m1-tint: #143a35; --m1-soft: #286b61;
+  --m2: #79a8dc; --m2-tint: #1b2c43; --m2-soft: #3a5c83;
+  --m3: #aa9be2; --m3-tint: #2c2944; --m3-soft: #554d7d;
+  --m4: #e17d9e; --m4-tint: #402431; --m4-soft: #7b4055;
+  --good: #55c9a3; --good-text: #76d8b7;
+  --warning: #79a8dc; --critical: #ef7995; --bad-text: #f090a7;
+}
+
+/* Selectorul celor doua moduri */
+html[data-view="editorial"] .vizualizare-alegere,
+html[data-view="atelier"] .vizualizare-alegere {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface-2);
+  font-family: var(--sans);
+}
+
+.vizualizare-alegere button {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  padding: .42rem .72rem;
+  font: 700 .72rem/1 var(--sans);
+  letter-spacing: .035em;
+  cursor: pointer;
+}
+
+.vizualizare-alegere button[aria-pressed="true"] {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 1px 4px rgba(20, 20, 45, .12);
+}
+
+html[data-view="editorial"] body {
+  background:
+    linear-gradient(90deg, transparent calc(50% - 40rem), rgba(36, 32, 95, .035) calc(50% - 40rem), rgba(36, 32, 95, .035) calc(50% - 39.94rem), transparent calc(50% - 39.94rem)),
+    var(--page);
+}
+
+/* Antet editorial: marca puternica, navigare discreta */
+html[data-view="editorial"] .antet {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--surface) 96%, transparent);
+  border-bottom: 1px solid var(--border-strong);
+  box-shadow: none;
+  backdrop-filter: blur(14px);
+}
+
+html[data-view="editorial"] .antet::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent) 0 7rem, transparent 7rem);
+}
+
+html[data-view="editorial"] .antet-interior {
+  min-height: var(--antet-h);
+  gap: 1.25rem;
+}
+
+html[data-view="editorial"] .marca .sigla {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+html[data-view="editorial"] .marca .sigla .sf { fill: var(--brand); }
+html[data-view="editorial"] .marca .sigla .sb { fill: #fff; }
+html[data-view="editorial"] .marca .sigla .sa { fill: var(--accent); }
+
+html[data-view="editorial"] .marca-text strong {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--brand-ink);
+  letter-spacing: -.01em;
+}
+
+html[data-view="editorial"] .marca-text small {
+  margin-top: .16rem;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .075em;
+  text-transform: uppercase;
+}
+
+html[data-view="editorial"] .nav-principal { gap: .05rem; }
+html[data-view="editorial"] .nav-principal a {
+  border-radius: 0;
+  padding: .7rem .66rem;
+  background: transparent;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+}
+
+html[data-view="editorial"] .nav-principal a:hover {
+  background: transparent;
+  color: var(--brand-ink);
+  box-shadow: inset 0 -2px var(--accent);
+}
+
+html[data-view="editorial"] .nav-principal a[aria-current="page"] {
+  background: transparent;
+  color: var(--brand-ink);
+  box-shadow: inset 0 -3px var(--accent);
+}
+
+html[data-view="editorial"] .unealta {
+  border-radius: 999px;
+  background: transparent;
+}
+
+/* Coperta disciplinei si coperta unitatii */
+html[data-view="editorial"] .erou,
+html[data-view="editorial"] .erou-unitate {
+  background: var(--surface);
+  color: var(--ink);
+  border-bottom: 1px solid var(--border-strong);
+}
+
+html[data-view="editorial"] .erou::before,
+html[data-view="editorial"] .erou-unitate::before {
+  display: block;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--brand) 6%, transparent) 1px, transparent 1px),
+    linear-gradient(color-mix(in srgb, var(--brand) 5%, transparent) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(90deg, transparent 18%, #000 72%, transparent);
+  opacity: .65;
+}
+
+html[data-view="editorial"] .erou-interior {
+  grid-template-columns: minmax(0, 1.2fr) minmax(19rem, .8fr);
+  padding-top: clamp(3rem, 6vw, 5.8rem);
+  padding-bottom: clamp(3rem, 5vw, 5rem);
+}
+
+html[data-view="editorial"] .erou-interior.fara-vizual {
+  max-width: var(--latime);
+  margin: 0 auto;
+}
+
+html[data-view="editorial"] .erou h1,
+html[data-view="editorial"] .erou-unitate h1 {
+  color: var(--brand-ink);
+  text-transform: none;
+  letter-spacing: -.035em;
+  line-height: .98;
+}
+
+html[data-view="editorial"] .erou h1 {
+  max-width: 11ch;
+  font-size: clamp(3.25rem, 3rem + 3.4vw, 6.7rem);
+}
+
+html[data-view="editorial"] .erou-unitate h1 {
+  max-width: 16ch;
+  font-size: clamp(3rem, 2.1rem + 3.7vw, 5.8rem);
+}
+
+html[data-view="editorial"] .erou h1::after,
+html[data-view="editorial"] .erou-unitate h1::after {
+  width: 4.4rem;
+  height: 5px;
+  margin-top: 1.25rem;
+  background: var(--accent);
+}
+
+html[data-view="editorial"] .erou .eticheta-sus,
+html[data-view="editorial"] .erou-unitate .eticheta-sus {
+  color: var(--accent);
+}
+
+html[data-view="editorial"] .erou-lead,
+html[data-view="editorial"] .erou-text p {
+  color: var(--ink-2);
+}
+
+html[data-view="editorial"] .erou-lead {
+  max-width: 48rem;
+  font-size: clamp(1.15rem, 1.02rem + .48vw, 1.48rem);
+}
+
+html[data-view="editorial"] .erou-unitate .firimituri,
+html[data-view="editorial"] .erou-unitate .firimituri a,
+html[data-view="editorial"] .erou-unitate .firimituri span {
+  color: var(--muted);
+}
+
+html[data-view="editorial"] .erou-unitate .meta-unitate li {
+  border: 0;
+  border-left: 2px solid var(--accent);
+  border-radius: 0;
+  padding: .25rem 0 .25rem .7rem;
+  background: transparent;
+  color: var(--ink-2);
+}
+
+html[data-view="editorial"] .erou-unitate .aviz {
+  max-width: 58rem;
+  border: 0;
+  border-left: 4px solid var(--accent);
+  border-radius: 0;
+  background: var(--accent-tint);
+  color: var(--ink-2);
+}
+
+html[data-view="editorial"] .erou-unitate .aviz .ic { color: var(--accent); }
+
+html[data-view="editorial"] .erou .buton {
+  border-radius: 2px;
+  background: var(--brand);
+  box-shadow: none;
+}
+
+html[data-view="editorial"] .erou .buton-contur,
+html[data-view="editorial"] .erou-unitate .buton-contur {
+  border-radius: 2px;
+  color: var(--brand-ink);
+  border-color: var(--brand);
+  background: transparent;
+}
+
+/* Indicatori mari, fara carduri */
+html[data-view="editorial"] .cifre-cheie {
+  max-width: 52rem;
+  gap: 0;
+  border-top: 1px solid var(--border-strong);
+  border-bottom: 1px solid var(--border-strong);
+}
+
+html[data-view="editorial"] .cifre-cheie > div {
+  min-height: 7.2rem;
+  justify-content: center;
+  border: 0;
+  border-right: 1px solid var(--border-strong);
+  border-radius: 0;
+  padding: 1.05rem 1.2rem;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-view="editorial"] .cifre-cheie > div:last-child { border-right: 0; }
+html[data-view="editorial"] .cifre-cheie dd {
+  font-family: var(--sans);
+  font-size: clamp(2.25rem, 1.8rem + 1vw, 3.15rem);
+  font-weight: 800;
+  color: var(--brand-ink);
+  letter-spacing: -.045em;
+}
+
+html[data-view="editorial"] .cifre-cheie dt {
+  font-size: .7rem;
+  line-height: 1.25;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+/* Sectiuni si harta disciplinei */
+html[data-view="editorial"] .sectiune {
+  padding-top: clamp(3.6rem, 6vw, 6.5rem);
+}
+
+html[data-view="editorial"] .sectiune > header {
+  max-width: 55rem;
+  margin-bottom: 2.2rem;
+}
+
+html[data-view="editorial"] .sectiune > header::before {
+  content: "";
+  display: block;
+  width: 3.3rem;
+  height: 4px;
+  margin-bottom: 1rem;
+  background: var(--accent);
+}
+
+html[data-view="editorial"] .sectiune > header h2 {
+  color: var(--brand-ink);
+  font-size: clamp(2.1rem, 1.7rem + 1.6vw, 3.25rem);
+  letter-spacing: -.028em;
+}
+
+html[data-view="editorial"] .pasi-studiu { gap: 0; border-top: 1px solid var(--border-strong); }
+html[data-view="editorial"] .pasi-studiu li {
+  border: 0;
+  border-right: 1px solid var(--border-strong);
+  border-radius: 0;
+  padding: 1.6rem 1.8rem 1.5rem;
+  background: transparent;
+  box-shadow: none;
+}
+html[data-view="editorial"] .pasi-studiu li:last-child { border-right: 0; }
+html[data-view="editorial"] .pasi-studiu .ic-pas {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+
+html[data-view="editorial"] .modul {
+  border: 0;
+  border-top: 4px solid var(--m, var(--brand));
+  border-radius: 0;
+  background: var(--surface);
+  box-shadow: none;
+}
+
+html[data-view="editorial"] .modul-antet {
+  align-items: flex-start;
+  padding: 1.45rem 1.55rem;
+  background: transparent;
+}
+
+html[data-view="editorial"] .modul-nr {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--m);
+  border: 2px solid currentColor;
+}
+
+html[data-view="editorial"] .modul-antet h3 {
+  color: var(--brand-ink);
+  font-size: 1.38rem;
+}
+
+html[data-view="editorial"] .saptamana {
+  grid-template-columns: 5.1rem minmax(0, 1fr);
+  padding: .85rem 1.55rem;
+}
+
+html[data-view="editorial"] .saptamana + .saptamana { border-top-style: solid; }
+html[data-view="editorial"] .unitate {
+  border: 0;
+  border-left: 3px solid var(--m-soft, var(--border-strong));
+  border-radius: 0;
+  padding: .72rem .85rem;
+  background: color-mix(in srgb, var(--surface) 76%, var(--page));
+}
+
+html[data-view="editorial"] .unitate.disponibila:hover {
+  transform: none;
+  border-left-color: var(--m);
+  box-shadow: none;
+  background: var(--m-tint);
+}
+
+html[data-view="editorial"] .unitate .ic-u { border-radius: 50%; }
+
+/* Harta circulara devine un obiect editorial, nu un card de bord */
+html[data-view="editorial"] .erou-vizual {
+  padding-left: clamp(1rem, 4vw, 3rem);
+  border-left: 1px solid var(--border-strong);
+}
+
+html[data-view="editorial"] .ceas .inel-fond { fill: var(--page); }
+html[data-view="editorial"] .ceas .seg { stroke: var(--surface); stroke-width: 4; }
+
+/* Filele unitatii */
+html[data-view="editorial"] .zona-file {
+  top: var(--antet-h);
+  background: color-mix(in srgb, var(--surface) 96%, transparent);
+  border-bottom: 1px solid var(--border-strong);
+  box-shadow: none;
+  backdrop-filter: blur(12px);
+}
+
+html[data-view="editorial"] .zona-file-interior { padding-top: 0; padding-bottom: 0; }
+html[data-view="editorial"] .file {
+  width: 100%;
+  gap: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+html[data-view="editorial"] .file [role="tab"] {
+  border-radius: 0;
+  border-bottom: 3px solid transparent;
+  padding: .9rem 1.1rem .78rem;
+}
+
+html[data-view="editorial"] .file [role="tab"][aria-selected="true"] {
+  background: transparent;
+  color: var(--brand-ink);
+  border-bottom-color: var(--accent);
+  box-shadow: none;
+}
+
+html[data-view="editorial"] .panou {
+  padding-top: clamp(2.5rem, 5vw, 4.8rem);
+}
+
+html[data-view="editorial"] .text-note {
+  font-size: clamp(1.08rem, 1rem + .22vw, 1.2rem);
+  line-height: 1.72;
+}
+
+html[data-view="editorial"] .text-note h2 {
+  color: var(--brand-ink);
+  font-size: clamp(1.85rem, 1.55rem + .9vw, 2.45rem);
+  letter-spacing: -.025em;
+}
+
+html[data-view="editorial"] .text-note h2::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 4px;
+  margin-bottom: .8rem;
+  background: var(--accent);
+}
+
+html[data-view="editorial"] .caseta {
+  border-radius: 0;
+  border-width: 0 0 0 4px;
+  box-shadow: none;
+}
+
+html[data-view="editorial"] .subsol {
+  border-top: 4px solid var(--brand);
+  background: var(--surface-2);
+}
+
+/* Ajustari dedicate panoului */
+html[data-view="editorial"] body:not(.pagina-disciplina):not(.pagina-unitate) .erou h1 {
+  max-width: 12ch;
+}
+
+html[data-view="editorial"] body:not(.pagina-disciplina):not(.pagina-unitate) .erou-text {
+  max-width: 70rem;
+}
+
+html[data-view="editorial"] body:not(.pagina-disciplina):not(.pagina-unitate) .nota-ss {
+  padding-top: .7rem;
+  border-top: 1px solid var(--border);
+  font-family: var(--sans);
+  font-size: .78rem;
+}
+
+html[data-view="editorial"] body:not(.pagina-disciplina):not(.pagina-unitate) .doua-coloane {
+  gap: 1px;
+  background: var(--border-strong);
+  border-top: 4px solid var(--brand);
+}
+
+html[data-view="editorial"] body:not(.pagina-disciplina):not(.pagina-unitate) .doua-coloane > .modul {
+  border-top: 0;
+}
+
+html[data-view="editorial"] .decizie {
+  border: 0;
+  border-left: 3px solid var(--m4);
+  border-radius: 0;
+  background: var(--page);
+}
+
+html[data-view="editorial"] .sarcina {
+  padding: .45rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+html[data-view="editorial"] .filtre button[aria-pressed="true"] {
+  background: var(--brand);
+  color: #fff;
+}
+
+/* Pagina de intrare a prototipului */
+.prototip-hub {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: #f6f7fb;
+  color: #17172a;
+  font: 1rem/1.55 "Atelier Sans", system-ui, sans-serif;
+}
+
+.prototip-hub main { width: min(100%, 68rem); }
+.prototip-hub .kicker { color: #138f7e; font-size: .78rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+.prototip-hub h1 { max-width: 12ch; margin: .35rem 0 1.2rem; color: #24205f; font: 700 clamp(3rem, 7vw, 6.5rem)/.96 "Atelier Serif", Georgia, serif; letter-spacing: -.04em; }
+.prototip-hub .intro { max-width: 48rem; color: #48495c; font: 1.3rem/1.55 "Atelier Serif", Georgia, serif; }
+.prototip-hub nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin-top: 3rem; border-top: 4px solid #138f7e; background: #c9ccd8; }
+.prototip-hub a { min-height: 12rem; padding: 1.5rem; background: #fff; color: #24205f; text-decoration: none; }
+.prototip-hub a:hover { background: #e2f4f0; }
+.prototip-hub a span { display: block; margin-bottom: 2rem; color: #6d6f80; font-size: .73rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.prototip-hub a strong { display: block; font: 700 1.55rem/1.18 "Atelier Serif", Georgia, serif; }
+.prototip-hub a small { display: block; margin-top: .65rem; color: #48495c; }
+
+@media (max-width: 76rem) {
+  html[data-view="editorial"] .vizualizare-alegere button { padding-inline: .55rem; }
+  html[data-view="editorial"] .nav-principal a { padding-inline: .48rem; }
+}
+
+@media (max-width: 64rem) {
+  html[data-view="editorial"] .vizualizare-alegere {
+    order: -1;
+    margin-left: auto;
+  }
+  html[data-view="editorial"] .erou-interior { grid-template-columns: 1fr; }
+  html[data-view="editorial"] .erou-vizual {
+    padding: 2rem 0 0;
+    border: 0;
+    border-top: 1px solid var(--border-strong);
+  }
+  #panou-nav { z-index: 55; }
+}
+
+@media (max-width: 48rem) {
+  html[data-view="editorial"] { --antet-h: 4.25rem; }
+  html[data-view="editorial"] .marca-text small { display: none; }
+  html[data-view="editorial"] .vizualizare-alegere button { font-size: .68rem; }
+  html[data-view="editorial"] .erou h1,
+  html[data-view="editorial"] .erou-unitate h1 { font-size: clamp(2.7rem, 12vw, 4.4rem); }
+  html[data-view="editorial"] .cifre-cheie { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  html[data-view="editorial"] .cifre-cheie > div:nth-child(2) { border-right: 0; }
+  html[data-view="editorial"] .cifre-cheie > div:nth-child(-n+2) { border-bottom: 1px solid var(--border-strong); }
+  html[data-view="editorial"] .pasi-studiu { grid-template-columns: 1fr; }
+  html[data-view="editorial"] .pasi-studiu li { border-right: 0; border-bottom: 1px solid var(--border-strong); }
+  html[data-view="editorial"] .saptamana { grid-template-columns: 3.6rem minmax(0, 1fr); padding-inline: .8rem; }
+  .prototip-hub nav { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 32rem) {
+  #panou-nav + .antet-unelte { flex: none; }
+  #panou-nav + .antet-unelte .unealta { min-width: 2.15rem; padding-inline: .48rem; }
+  #panou-nav + .antet-unelte .marca-text { display: none; }
+  html[data-view="editorial"] .vizualizare-alegere button { padding: .38rem .46rem; }
+  html[data-view="editorial"] .antet-unelte { gap: .15rem; }
+  html[data-view="editorial"] .cautare-deschide span,
+  html[data-view="editorial"] .cautare-deschide kbd { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vizualizare-alegere *,
+  html[data-view="editorial"] * { scroll-behavior: auto !important; }
+}

@@ -11,7 +11,9 @@
 <link rel="preload" href="../../assets/fonturi/atelier-sans-400.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="../../assets/css/atelier.css">
 <link rel="stylesheet" href="../../assets/css/instrumente.css">
-<script>document.documentElement.className="js";try{var t=localStorage.getItem("atelier:tema");if(t)document.documentElement.setAttribute("data-theme",JSON.parse(t))}catch(e){}</script>
+<link rel="stylesheet" href="../../assets/css/editorial.css">
+<link rel="stylesheet" href="../../assets/css/atlas.css">
+<script>document.documentElement.className="js";try{var v=localStorage.getItem("atelier:vizualizare");document.documentElement.setAttribute("data-view",v==="atelier"?"atelier":"editorial");var t=localStorage.getItem("atelier:tema");if(t)document.documentElement.setAttribute("data-theme",JSON.parse(t))}catch(e){document.documentElement.setAttribute("data-view","editorial")}</script>
 
 </head>
 <body class="prezentare prezentare-imagini m1" data-disc="OPT_DROGURI" data-cautare="cautare.js">
@@ -24,6 +26,8 @@
 
 <script src="../../assets/js/atelier.js"></script>
 <script src="../../assets/js/atelier-pagina.js"></script>
+<script src="../../assets/js/vizualizare.js"></script>
+<script src="../../assets/js/atlas.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,238 @@
+/* Atlas editorial — instrumente vizuale derivate din structura reală a paginii. */
+
+:root {
+  --atlas-navy: var(--brand, #24205f);
+  --atlas-teal: var(--accent, #138f7e);
+  --atlas-blue: var(--m2, #356ba6);
+  --atlas-violet: var(--m3, #6551a4);
+  --atlas-plum: var(--m4, #a32f57);
+}
+
+html[data-view="atelier"] .atlas-sistem,
+html[data-view="atelier"] .atlas-prez-hud { display: none; }
+
+.atlas-sistem,
+.atlas-sistem * { box-sizing: border-box; }
+
+.atlas-sistem {
+  width: min(var(--latime, 80rem), calc(100% - 2rem));
+  margin: clamp(1.5rem, 3vw, 3rem) auto;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.atlas-sistem > header {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(15rem, .6fr);
+  gap: 1.5rem;
+  align-items: end;
+  margin-bottom: 1rem;
+  padding: clamp(1.2rem, 2.5vw, 2rem);
+  color: #fff;
+  background: var(--atlas-navy);
+}
+
+.atlas-sistem > header h2 {
+  max-width: 15ch;
+  margin: .25rem 0 0;
+  color: #fff;
+  font: 700 clamp(1.8rem, 4vw, 3.7rem)/1 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.atlas-sistem > header h2::before { display: none; }
+.atlas-sistem > header p:last-child { margin: 0; padding-left: 1rem; border-left: 3px solid var(--atlas-teal); color: rgba(255,255,255,.76); line-height: 1.55; }
+.atlas-kicker { margin: 0; color: color-mix(in srgb, #fff 70%, var(--atlas-teal)); font-size: .68rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
+
+.atlas-grila {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: .8rem;
+}
+
+.atlas-card {
+  grid-column: span 4;
+  min-width: 0;
+  padding: 1.15rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.atlas-card.lata { grid-column: span 8; }
+.atlas-card.intreaga { grid-column: 1 / -1; }
+.atlas-card h3 { margin: 0 0 .25rem; font: 700 1.12rem/1.2 var(--serif); }
+.atlas-card > p { margin: 0 0 1rem; color: var(--ink-2); font-size: .78rem; line-height: 1.45; }
+.atlas-tip { display: block; margin-bottom: .4rem; color: var(--atlas-teal); font-size: .64rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+
+.atlas-metrici { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--border); }
+.atlas-metrica { min-height: 7.3rem; padding: .9rem; background: var(--surface); }
+.atlas-metrica strong { display: block; color: var(--c, var(--atlas-navy)); font: 700 clamp(1.8rem, 4vw, 3.3rem)/1 var(--serif); letter-spacing: -.05em; }
+.atlas-metrica span { display: block; margin-top: .45rem; color: var(--ink-2); font-size: .68rem; font-weight: 800; line-height: 1.3; }
+
+.atlas-bare { display: grid; gap: .65rem; }
+.atlas-bara-rand { display: grid; grid-template-columns: minmax(7.2rem, .8fr) minmax(8rem, 1.5fr) 3.2rem; gap: .55rem; align-items: center; }
+.atlas-bara-rand > span:first-child { overflow: hidden; font-size: .72rem; font-weight: 800; text-overflow: ellipsis; white-space: nowrap; }
+.atlas-pista { height: .72rem; background: var(--surface-2); }
+.atlas-pista i { display: block; width: var(--p); height: 100%; background: var(--c, var(--atlas-teal)); }
+.atlas-bara-rand > strong { color: var(--ink-2); font-size: .7rem; text-align: right; }
+
+/* Pagina-rădăcină: portofoliul disciplinelor. */
+.atlas-portofoliu .atlas-card { grid-column: 1 / -1; }
+.atlas-portofoliu-rand { display: grid; grid-template-columns: minmax(12rem, 1.1fr) minmax(12rem, 2fr) 6rem; gap: .8rem; align-items: center; padding: .7rem 0; border-top: 1px solid var(--border); }
+.atlas-portofoliu-rand:first-child { border-top: 0; }
+.atlas-portofoliu-rand a { color: var(--ink); font: 700 .86rem/1.3 var(--serif); text-decoration: none; }
+.atlas-portofoliu-rand small { display: block; margin-top: .15rem; color: var(--muted); font: 400 .64rem/1.3 var(--sans); }
+.atlas-portofoliu-rand .atlas-pista { position: relative; height: 1rem; background: linear-gradient(90deg, var(--surface-2) 0 49.6%, var(--grid) 49.6% 50.4%, var(--surface-2) 50.4% 79.6%, var(--grid) 79.6% 80.4%, var(--surface-2) 80.4%); }
+.atlas-portofoliu-rand > strong { color: var(--atlas-teal); font-size: .78rem; text-align: right; }
+
+/* Disciplina: matricea de semestru și încărcarea pe module. */
+.atlas-matrice-wrap { overflow-x: auto; padding-bottom: .4rem; }
+.atlas-matrice { width: 100%; min-width: 47rem; border-collapse: separate; border-spacing: .25rem; table-layout: fixed; }
+.atlas-matrice th, .atlas-matrice td { padding: 0; border: 0; text-align: center; }
+.atlas-matrice thead th { color: var(--muted); background: transparent; font-size: .62rem; }
+.atlas-matrice .atlas-rand-label { width: 4.2rem; color: var(--ink-2); background: transparent; font-size: .66rem; font-weight: 900; text-align: left; }
+.atlas-matrice a,
+.atlas-matrice td > span { display: grid; place-items: center; min-height: 2.5rem; color: #fff; background: var(--c, var(--atlas-teal)); font-size: .65rem; font-weight: 900; text-decoration: none; }
+.atlas-matrice a:hover { outline: 3px solid color-mix(in srgb, var(--c, var(--atlas-teal)) 30%, transparent); outline-offset: 2px; }
+.atlas-matrice td.gol > span { color: var(--muted); background: var(--surface-2); }
+.atlas-matrice .m1 { --c: var(--m1); }.atlas-matrice .m2 { --c: var(--m2); }.atlas-matrice .m3 { --c: var(--m3); }.atlas-matrice .m4 { --c: var(--m4); }
+
+.atlas-inel {
+  display: grid;
+  place-items: center;
+  width: min(12rem, 70vw);
+  aspect-ratio: 1;
+  margin: .7rem auto;
+  border-radius: 50%;
+  background: conic-gradient(var(--atlas-teal) var(--p), var(--surface-2) 0);
+}
+.atlas-inel::before { content: ""; grid-area: 1 / 1; width: 72%; aspect-ratio: 1; border-radius: 50%; background: var(--surface); }
+.atlas-inel > span { z-index: 1; grid-area: 1 / 1; text-align: center; }
+.atlas-inel strong { display: block; color: var(--atlas-teal); font: 700 2.6rem/1 var(--serif); }
+.atlas-inel small { color: var(--ink-2); font-size: .65rem; font-weight: 800; }
+
+/* Unitatea: traseu, semnătura conținutului și hartă de lectură. */
+.atlas-traseu { display: grid; grid-template-columns: repeat(var(--n, 4), minmax(0, 1fr)); gap: .35rem; }
+.atlas-pas { position: relative; min-height: 6.6rem; padding: .75rem; border-top: 4px solid var(--c, var(--atlas-teal)); background: color-mix(in srgb, var(--c, var(--atlas-teal)) 8%, var(--surface)); }
+.atlas-pas:not(:last-child)::after { content: "›"; position: absolute; z-index: 2; top: 48%; right: -.46rem; color: var(--c, var(--atlas-teal)); font-weight: 900; }
+.atlas-pas strong { display: block; font-size: .74rem; line-height: 1.25; }
+.atlas-pas span { display: block; margin-top: .35rem; color: var(--ink-2); font-size: .64rem; }
+.atlas-pas i { display: block; width: .55rem; height: .55rem; margin-top: 1rem; border-radius: 50%; background: var(--c, var(--atlas-teal)); }
+
+.atlas-semnatura { display: flex; min-height: 5.2rem; overflow: hidden; }
+.atlas-semnatura > div { flex: max(1, var(--v)); display: grid; align-content: center; min-width: 2.8rem; padding: .55rem; color: #fff; background: var(--c); }
+.atlas-semnatura strong { font: 700 clamp(1.1rem, 2.5vw, 2rem)/1 var(--serif); }
+.atlas-semnatura span { margin-top: .25rem; font-size: .58rem; font-weight: 800; line-height: 1.2; }
+
+.atlas-harta-lectura { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: .35rem; }
+.atlas-harta-lectura a { min-height: 4.4rem; padding: .65rem; border-left: 3px solid var(--c, var(--atlas-teal)); color: var(--ink); background: var(--surface-2); font-size: .68rem; font-weight: 800; line-height: 1.3; text-decoration: none; }
+.atlas-harta-lectura a span { display: block; margin-bottom: .3rem; color: var(--c, var(--atlas-teal)); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; }
+
+/* Pagini de registru. */
+.atlas-litere { display: flex; align-items: end; gap: .26rem; min-height: 9rem; }
+.atlas-litera { display: grid; grid-template-rows: 1fr auto; align-items: end; flex: 1 1 0; min-width: 1.25rem; height: 9rem; }
+.atlas-litera i { display: block; width: 100%; height: var(--p); min-height: .18rem; background: var(--c, var(--atlas-teal)); }
+.atlas-litera span { padding-top: .35rem; color: var(--ink-2); font-size: .58rem; font-weight: 900; text-align: center; }
+
+.atlas-flux { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .35rem; }
+.atlas-flux > div { position: relative; min-height: 7.5rem; padding: .75rem; border-left: 3px solid var(--c); background: color-mix(in srgb, var(--c) 8%, var(--surface)); }
+.atlas-flux > div:not(:last-child)::after { content: "›"; position: absolute; top: 45%; right: -.45rem; z-index: 2; color: var(--c); font-weight: 900; }
+.atlas-flux strong { display: block; color: var(--c); font: 700 2.2rem/1 var(--serif); }
+.atlas-flux span { display: block; margin-top: .5rem; color: var(--ink-2); font-size: .68rem; font-weight: 800; line-height: 1.3; }
+
+.atlas-catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: .35rem; }
+.atlas-catalog > div { min-height: 6.4rem; padding: .7rem; border-top: 3px solid var(--c); background: var(--surface-2); }
+.atlas-catalog strong { display: block; color: var(--ink); font-size: .72rem; }
+.atlas-catalog span { display: block; margin-top: .35rem; color: var(--ink-2); font-size: .62rem; line-height: 1.35; }
+
+.atlas-principii { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: .4rem; counter-reset: atlas-principiu; }
+.atlas-principii > div { counter-increment: atlas-principiu; min-height: 8rem; padding: .8rem; border-top: 3px solid var(--c); background: var(--surface-2); }
+.atlas-principii > div::before { content: counter(atlas-principiu, decimal-leading-zero); display: block; margin-bottom: 1rem; color: var(--c); font: 700 1.5rem/1 var(--serif); }
+.atlas-principii strong { font-size: .74rem; }
+.atlas-principii p { margin: .35rem 0 0; color: var(--ink-2); font-size: .64rem; line-height: 1.4; }
+
+/* Prezentări: navigator, zoom și un layout de ansamblu mai dens. */
+body.prezentare .vizualizare-alegere { margin-inline: .25rem; }
+.atlas-prez-hud {
+  position: fixed;
+  z-index: 80;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(8rem, auto) auto;
+  gap: .7rem;
+  align-items: center;
+  padding: .55rem .7rem;
+  border: 1px solid rgba(255,255,255,.16);
+  color: #fff;
+  background: rgba(17,18,26,.88);
+  backdrop-filter: blur(12px);
+  transition: opacity .2s ease, transform .2s ease;
+}
+body.prezentare.inactiv .atlas-prez-hud { opacity: 0; transform: translateY(.75rem); pointer-events: none; }
+.atlas-prez-hud strong { min-width: 4.4rem; color: #fff; font-size: .7rem; }
+.atlas-prez-pista { display: flex; gap: 2px; height: .8rem; overflow: hidden; }
+.atlas-prez-pista button { flex: 1 1 0; min-width: 2px; padding: 0; border: 0; background: rgba(255,255,255,.2); cursor: pointer; }
+.atlas-prez-pista button.trecut { background: var(--atlas-teal); }
+.atlas-prez-pista button.curent { background: #fff; box-shadow: 0 0 0 2px var(--atlas-teal); }
+.atlas-prez-hud span { max-width: 28vw; overflow: hidden; color: rgba(255,255,255,.76); font-size: .65rem; text-overflow: ellipsis; white-space: nowrap; }
+
+.atlas-prez-unelte { display: inline-flex; gap: 2px; }
+.atlas-prez-unelte button { display: grid; place-items: center; min-width: 2.25rem; height: 2.25rem; padding: .35rem; border: 1px solid rgba(255,255,255,.18); border-radius: 999px; color: #fff; background: transparent; cursor: pointer; }
+.atlas-prez-unelte button:hover,
+.atlas-prez-unelte button[aria-pressed="true"] { background: var(--atlas-teal); }
+
+body.prezentare.atlas-zoom .diapozitiv.activ { overflow: auto; cursor: zoom-out; }
+body.prezentare.atlas-zoom .diapozitiv.activ > img { width: calc(100% * var(--atlas-zoom, 1.4)); max-width: none; height: auto; max-height: none; transform-origin: top left; }
+body.prezentare.atlas-focus .diapozitiv.activ::after { content: ""; position: fixed; inset: 0; pointer-events: none; background: radial-gradient(circle 8rem at var(--atlas-x, 50%) var(--atlas-y, 50%), transparent 0 70%, rgba(0,0,0,.7) 100%); }
+
+html[data-view="editorial"] body.prezentare { background: #0d0e16; }
+html[data-view="editorial"] .bara-prezentare { border-bottom: 1px solid rgba(255,255,255,.12); background: rgba(17,18,26,.94); backdrop-filter: blur(14px); }
+html[data-view="editorial"] .bara-prezentare button,
+html[data-view="editorial"] .bara-prezentare a { border-radius: 999px; }
+html[data-view="editorial"] body.prezentare.cu-ansamblu .pachet { padding: 5.5rem 1.2rem 5rem; background: #10111b; }
+html[data-view="editorial"] [data-lista-ansamblu] { grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: .65rem; padding: 1rem; }
+html[data-view="editorial"] [data-lista-ansamblu] button { border: 1px solid rgba(255,255,255,.12); background: #1a1b27; }
+html[data-view="editorial"] [data-lista-ansamblu] button.curent { outline: 3px solid var(--atlas-teal); outline-offset: 2px; }
+
+@media (max-width: 900px) {
+  .atlas-card, .atlas-card.lata { grid-column: span 6; }
+  .atlas-card.intreaga { grid-column: 1 / -1; }
+  .atlas-sistem > header { grid-template-columns: 1fr; }
+  .atlas-sistem > header p:last-child { max-width: 42rem; }
+  .atlas-flux { grid-template-columns: repeat(2, 1fr); }
+  .atlas-flux > div:nth-child(2)::after { display: none; }
+}
+
+@media (max-width: 650px) {
+  .atlas-sistem { width: min(100% - 1rem, var(--latime, 80rem)); margin-block: 1rem; }
+  .atlas-card, .atlas-card.lata, .atlas-card.intreaga { grid-column: 1 / -1; }
+  .atlas-metrici { grid-template-columns: 1fr; }
+  .atlas-metrica { min-height: 5.5rem; }
+  .atlas-portofoliu-rand { grid-template-columns: 1fr auto; }
+  .atlas-portofoliu-rand .atlas-pista { grid-column: 1 / -1; grid-row: 2; }
+  .atlas-traseu { grid-template-columns: 1fr; }
+  .atlas-pas:not(:last-child)::after { top: auto; right: 50%; bottom: -.45rem; transform: rotate(90deg); }
+  .atlas-flux { grid-template-columns: 1fr; }
+  .atlas-flux > div:not(:last-child)::after { top: auto; right: 50%; bottom: -.45rem; transform: rotate(90deg); }
+  .atlas-flux > div:nth-child(2)::after { display: block; }
+  .atlas-semnatura { display: grid; }
+  .atlas-semnatura > div { min-height: 3.4rem; }
+  .atlas-prez-hud { right: .35rem; bottom: .35rem; left: .35rem; grid-template-columns: auto minmax(0, 1fr); }
+  .atlas-prez-hud > span { display: none; }
+  .atlas-prez-unelte { grid-column: 1 / -1; justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .atlas-prez-hud { transition: none; }
+}
+
+@media print {
+  .atlas-sistem { width: 100%; break-inside: avoid; }
+  .atlas-card { break-inside: avoid; }
+  .atlas-matrice { min-width: 0; }
+  .atlas-prez-hud { display: none; }
+}
