@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-05",
+  "construit": "2026-10-06",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 160,
+      "afirmatii_publicate": 207,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,12 +27,13 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 2,
+      "unitati_publicate": 3,
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "9fc0eb258692fadf",
-          "LP01": "377c89fc3280236e"
+          "C01": "2b13fad2b6f90e5b",
+          "LP01": "cd34500955445b1f",
+          "C02": "cbbb5f43c250b3db"
         }
       }
     },
@@ -60,11 +61,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 1,
+      "unitati_publicate": 2,
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "7e74c17661ef0773"
+          "C01": "4fe88dbee261365e",
+          "C02": "08cb76598e6dba5f"
         }
       }
     },
@@ -79,7 +81,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 174,
+      "afirmatii_publicate": 208,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -96,7 +98,7 @@
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "f4f9081423c4dde8"
+          "C01": "232344c9a4187a37"
         }
       }
     },
@@ -111,7 +113,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 127,
+      "afirmatii_publicate": 133,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -128,7 +130,7 @@
       "unitati_total": 8,
       "amprente": {
         "ro": {
-          "C01": "45910f04c858c39b"
+          "C01": "a3b76a8c29168ead"
         }
       }
     },
@@ -144,7 +146,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 84,
+      "afirmatii_publicate": 85,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -162,7 +164,7 @@
       "unitati_total": 8,
       "amprente": {
         "ro": {
-          "C01": "6126dae6557419ae"
+          "C01": "dd2918b3967e70f2"
         }
       }
     },
@@ -178,7 +180,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 9,
+      "afirmatii_publicate": 39,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -213,7 +215,7 @@
         "ro": "Radiologie și imagistică, anul I",
         "en": "Radiology and Medical Imaging, Year I"
       },
-      "afirmatii_publicate": 0,
+      "afirmatii_publicate": 8,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -227,15 +229,18 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 2,
       "unitati_total": 3,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "32c35e545881c2f4",
+          "C02": "c5d09442abd827ad"
+        }
       }
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 21,
+      "pagini": 22,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -247,7 +252,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 9,
+      "afirmatii_publicate": 79,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -269,7 +274,8 @@
       "amprente": {
         "ro": {
           "C01": "453756d1b824f900",
-          "LP01": "43faceaba11d6dae"
+          "LP01": "43faceaba11d6dae",
+          "C02": "91ea9312bf7b5a3e"
         },
         "fr": {
           "C01": "b15951cb87534663",
