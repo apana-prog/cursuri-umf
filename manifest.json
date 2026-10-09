@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-08",
+  "construit": "2026-10-09",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 271,
+      "afirmatii_publicate": 304,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -48,7 +48,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 80,
+      "afirmatii_publicate": 106,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -72,7 +72,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 10,
+      "pagini": 11,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -105,7 +105,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 11,
+      "pagini": 12,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -139,7 +139,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 11,
+      "pagini": 13,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -220,7 +220,7 @@
         "ro": "Radiologie și imagistică, anul I",
         "en": "Radiology and Medical Imaging, Year I"
       },
-      "afirmatii_publicate": 8,
+      "afirmatii_publicate": 40,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
