@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-13",
+  "construit": "2026-10-14",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -84,7 +84,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 236,
+      "afirmatii_publicate": 247,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -97,12 +97,13 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 2,
+      "unitati_publicate": 3,
       "unitati_total": 7,
       "amprente": {
         "ro": {
           "C01": "232344c9a4187a37",
-          "C02": "f492982c4552222a"
+          "C02": "f492982c4552222a",
+          "C03": "a76d1b60eb69c751"
         }
       }
     },
@@ -117,7 +118,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 166,
+      "afirmatii_publicate": 172,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -130,13 +131,15 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 3,
+      "unitati_publicate": 5,
       "unitati_total": 9,
       "amprente": {
         "ro": {
           "C01": "a3b76a8c29168ead",
           "C02": "7c1244d7eacb1dcc",
-          "LP01": "5d7774b429640f5f"
+          "LP01": "5d7774b429640f5f",
+          "C03": "65865c4a0d9ef0cc",
+          "LP02": "24d850048db5c32b"
         }
       }
     },
@@ -152,7 +155,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 137,
+      "afirmatii_publicate": 151,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -166,19 +169,21 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 3,
+      "unitati_publicate": 5,
       "unitati_total": 8,
       "amprente": {
         "ro": {
           "C01": "dd2918b3967e70f2",
           "LP01": "a3ad7a7ea9069b6c",
-          "C02": "6aae0d3e3d025343"
+          "C02": "6aae0d3e3d025343",
+          "LP02": "fd179c0348191a8e",
+          "C03": "95d810d1a4d49ded"
         }
       }
     },
     {
       "cod": "EPS_I",
-      "pagini": 14,
+      "pagini": 15,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -251,7 +256,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 33,
+      "pagini": 35,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -263,7 +268,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 171,
+      "afirmatii_publicate": 241,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
