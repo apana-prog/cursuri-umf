@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-16",
+  "construit": "2026-10-17",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -84,7 +84,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 247,
+      "afirmatii_publicate": 280,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -118,7 +118,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 172,
+      "afirmatii_publicate": 200,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -155,7 +155,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 151,
+      "afirmatii_publicate": 196,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -193,7 +193,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 75,
+      "afirmatii_publicate": 84,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
