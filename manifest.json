@@ -1,9 +1,9 @@
 {
-  "construit": "2026-10-17",
+  "construit": "2026-10-18",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 17,
+      "pagini": 19,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 365,
+      "afirmatii_publicate": 369,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,7 +27,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 5,
+      "unitati_publicate": 6,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -35,13 +35,14 @@
           "LP01": "cd34500955445b1f",
           "C02": "cbbb5f43c250b3db",
           "LP02": "985b4f3aa059a239",
-          "C03": "10c1fa22f709f6bf"
+          "C03": "10c1fa22f709f6bf",
+          "LP03": "6441e3a042b8edf5"
         }
       }
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 13,
+      "pagini": 14,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -75,7 +76,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 13,
+      "pagini": 14,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -109,7 +110,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 16,
+      "pagini": 18,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -132,10 +133,10 @@
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 5,
-      "unitati_total": 9,
+      "unitati_total": 10,
       "amprente": {
         "ro": {
-          "C01": "a3b76a8c29168ead",
+          "C01": "1b91ecf96b36098c",
           "C02": "7c1244d7eacb1dcc",
           "LP01": "5d7774b429640f5f",
           "C03": "65865c4a0d9ef0cc",
@@ -145,7 +146,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 17,
+      "pagini": 20,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -155,7 +156,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 196,
+      "afirmatii_publicate": 200,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -173,17 +174,17 @@
       "unitati_total": 8,
       "amprente": {
         "ro": {
-          "C01": "dd2918b3967e70f2",
+          "C01": "dec6b58080600d56",
           "LP01": "a3ad7a7ea9069b6c",
-          "C02": "6aae0d3e3d025343",
+          "C02": "9b2088db2b2628e0",
           "LP02": "fd179c0348191a8e",
-          "C03": "95d810d1a4d49ded"
+          "C03": "a09d22739d8585c6"
         }
       }
     },
     {
       "cod": "EPS_I",
-      "pagini": 15,
+      "pagini": 17,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -193,7 +194,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 84,
+      "afirmatii_publicate": 89,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -207,20 +208,21 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 4,
+      "unitati_publicate": 5,
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "32c35e545881c2f4",
+          "C01": "b8ab5258bd73d8d6",
           "LP01": "3700697d1c0759f0",
-          "C02": "c5d09442abd827ad",
-          "LP02": "86776a30fdcc4b6d"
+          "C02": "08c600a76050ba28",
+          "LP02": "aef7088997bcaa5e",
+          "C03": "88e65857cc8cdc4a"
         }
       }
     },
     {
       "cod": "EPS_RI",
-      "pagini": 12,
+      "pagini": 13,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -245,18 +247,18 @@
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 3,
-      "unitati_total": 3,
+      "unitati_total": 4,
       "amprente": {
         "ro": {
-          "C01": "32c35e545881c2f4",
-          "C02": "c5d09442abd827ad",
-          "LP01": "a350e574a3d0e063"
+          "C01": "b8ab5258bd73d8d6",
+          "C02": "08c600a76050ba28",
+          "LP01": "f2d0565de08f8776"
         }
       }
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 36,
+      "pagini": 42,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -268,7 +270,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 241,
+      "afirmatii_publicate": 268,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -285,7 +287,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 9,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -302,7 +304,10 @@
           "C02": "2f577253983220ec",
           "LP02": "4b7ee01cf31d09db",
           "C03": "e5afe59970a8250e",
-          "C04": "5111bbc625f83e38"
+          "LP03": "d5532491a3c8e225",
+          "C04": "5111bbc625f83e38",
+          "C05": "723210955a250c45",
+          "C06": "b81efea744a52872"
         }
       }
     }
