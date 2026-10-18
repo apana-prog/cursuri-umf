@@ -31,7 +31,7 @@
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "2b13fad2b6f90e5b",
+          "C01": "73672e78545e1f97",
           "LP01": "cd34500955445b1f",
           "C02": "cbbb5f43c250b3db",
           "LP02": "985b4f3aa059a239",
@@ -110,7 +110,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 18,
+      "pagini": 19,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -258,7 +258,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 42,
+      "pagini": 44,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
