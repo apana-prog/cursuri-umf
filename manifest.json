@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-18",
+  "construit": "2026-10-19",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -184,7 +184,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 17,
+      "pagini": 18,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -208,7 +208,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 5,
+      "unitati_publicate": 6,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -216,7 +216,8 @@
           "LP01": "3700697d1c0759f0",
           "C02": "08c600a76050ba28",
           "LP02": "aef7088997bcaa5e",
-          "C03": "88e65857cc8cdc4a"
+          "C03": "88e65857cc8cdc4a",
+          "LP03": "32f3b3899241de60"
         }
       }
     },
@@ -258,7 +259,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 44,
+      "pagini": 46,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -296,7 +297,9 @@
           "C02": "91ea9312bf7b5a3e",
           "LP02": "52c9048381f20302",
           "C03": "3b4e3b73f5a54346",
-          "C04": "6210de95c27ecb7e"
+          "LP03": "9d7fa19359ac20d7",
+          "C04": "6210de95c27ecb7e",
+          "C05": "0287ee9b51922698"
         },
         "fr": {
           "C01": "b15951cb87534663",
