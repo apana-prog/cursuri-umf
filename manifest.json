@@ -1,9 +1,9 @@
 {
-  "construit": "2026-10-19",
+  "construit": "2026-10-21",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 19,
+      "pagini": 20,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 369,
+      "afirmatii_publicate": 380,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,7 +27,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 7,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -36,7 +36,8 @@
           "C02": "cbbb5f43c250b3db",
           "LP02": "985b4f3aa059a239",
           "C03": "10c1fa22f709f6bf",
-          "LP03": "6441e3a042b8edf5"
+          "LP03": "6441e3a042b8edf5",
+          "C04": "cb7ba06f1f755ca5"
         }
       }
     },
@@ -51,7 +52,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 167,
+      "afirmatii_publicate": 174,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -64,13 +65,14 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 3,
+      "unitati_publicate": 4,
       "unitati_total": 7,
       "amprente": {
         "ro": {
           "C01": "4fe88dbee261365e",
           "C02": "08cb76598e6dba5f",
-          "C03": "452131235bbdc3c3"
+          "C03": "452131235bbdc3c3",
+          "C04": "5e8d2faac0fa07a7"
         }
       }
     },
@@ -85,7 +87,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 280,
+      "afirmatii_publicate": 291,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -98,13 +100,14 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 3,
+      "unitati_publicate": 4,
       "unitati_total": 7,
       "amprente": {
         "ro": {
           "C01": "232344c9a4187a37",
           "C02": "f492982c4552222a",
-          "C03": "a76d1b60eb69c751"
+          "C03": "a76d1b60eb69c751",
+          "C04": "e396a1d927863d2f"
         }
       }
     },
@@ -119,7 +122,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 200,
+      "afirmatii_publicate": 209,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -132,7 +135,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 5,
+      "unitati_publicate": 7,
       "unitati_total": 10,
       "amprente": {
         "ro": {
@@ -140,7 +143,9 @@
           "C02": "7c1244d7eacb1dcc",
           "LP01": "5d7774b429640f5f",
           "C03": "65865c4a0d9ef0cc",
-          "LP02": "24d850048db5c32b"
+          "LP02": "24d850048db5c32b",
+          "C04": "ba92d5c886aec5c6",
+          "LP03": "8f2ea78367afcfc5"
         }
       }
     },
@@ -156,7 +161,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 200,
+      "afirmatii_publicate": 226,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -170,7 +175,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 5,
+      "unitati_publicate": 8,
       "unitati_total": 8,
       "amprente": {
         "ro": {
@@ -178,13 +183,16 @@
           "LP01": "a3ad7a7ea9069b6c",
           "C02": "9b2088db2b2628e0",
           "LP02": "fd179c0348191a8e",
-          "C03": "a09d22739d8585c6"
+          "C03": "a09d22739d8585c6",
+          "LP03": "f5e1a96fab9d9cc4",
+          "C04": "937d106ba0ae9e3f",
+          "LP04": "78c8785f200d3868"
         }
       }
     },
     {
       "cod": "EPS_I",
-      "pagini": 18,
+      "pagini": 19,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -194,7 +202,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 89,
+      "afirmatii_publicate": 101,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -233,7 +241,7 @@
         "ro": "Radiologie și imagistică, anul I",
         "en": "Radiology and Medical Imaging, Year I"
       },
-      "afirmatii_publicate": 70,
+      "afirmatii_publicate": 75,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -247,19 +255,20 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 3,
+      "unitati_publicate": 4,
       "unitati_total": 4,
       "amprente": {
         "ro": {
           "C01": "b8ab5258bd73d8d6",
           "C02": "08c600a76050ba28",
-          "LP01": "f2d0565de08f8776"
+          "LP01": "f2d0565de08f8776",
+          "C03": "88e65857cc8cdc4a"
         }
       }
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 46,
+      "pagini": 49,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -271,7 +280,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 268,
+      "afirmatii_publicate": 350,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -299,7 +308,8 @@
           "C03": "3b4e3b73f5a54346",
           "LP03": "9d7fa19359ac20d7",
           "C04": "6210de95c27ecb7e",
-          "C05": "0287ee9b51922698"
+          "C05": "0287ee9b51922698",
+          "C06": "7987f0e2659fcf3d"
         },
         "fr": {
           "C01": "b15951cb87534663",
