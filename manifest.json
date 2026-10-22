@@ -1,9 +1,9 @@
 {
-  "construit": "2026-10-21",
+  "construit": "2026-10-22",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 20,
+      "pagini": 21,
       "widgets": 5,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 380,
+      "afirmatii_publicate": 389,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -43,7 +43,7 @@
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 14,
+      "pagini": 15,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -231,7 +231,7 @@
     },
     {
       "cod": "EPS_RI",
-      "pagini": 13,
+      "pagini": 14,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -268,7 +268,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 49,
+      "pagini": 50,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
