@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-23",
+  "construit": "2026-10-25",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -87,7 +87,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 291,
+      "afirmatii_publicate": 339,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -122,7 +122,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 209,
+      "afirmatii_publicate": 233,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -151,7 +151,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 23,
+      "pagini": 18,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -161,7 +161,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 243,
+      "afirmatii_publicate": 140,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -175,25 +175,20 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 8,
+      "unitati_publicate": 3,
       "unitati_total": 8,
       "amprente": {
         "ro": {
           "C01": "dec6b58080600d56",
           "LP01": "a3ad7a7ea9069b6c",
-          "C02": "9b2088db2b2628e0",
-          "LP02": "fd179c0348191a8e",
-          "C03": "a09d22739d8585c6",
-          "LP03": "f5e1a96fab9d9cc4",
-          "C04": "937d106ba0ae9e3f",
-          "LP04": "78c8785f200d3868"
+          "C02": "9b2088db2b2628e0"
         }
       }
     },
     {
       "cod": "EPS_I",
-      "pagini": 19,
-      "widgets": 0,
+      "pagini": 20,
+      "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
         "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
@@ -202,7 +197,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 101,
+      "afirmatii_publicate": 117,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -216,7 +211,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 7,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -225,14 +220,15 @@
           "C02": "08c600a76050ba28",
           "LP02": "aef7088997bcaa5e",
           "C03": "88e65857cc8cdc4a",
-          "LP03": "32f3b3899241de60"
+          "LP03": "32f3b3899241de60",
+          "C04": "0c2fb8aae9a2332d"
         }
       }
     },
     {
       "cod": "EPS_RI",
       "pagini": 14,
-      "widgets": 0,
+      "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
         "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
@@ -268,8 +264,8 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 50,
-      "widgets": 4,
+      "pagini": 54,
+      "widgets": 6,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
         "en": "„Iuliu Hațieganu” UMPh Cluj-Napoca, Faculty of Medicine",
@@ -280,7 +276,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 350,
+      "afirmatii_publicate": 359,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -297,7 +293,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 9,
+      "unitati_publicate": 11,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -319,8 +315,10 @@
           "C03": "e5afe59970a8250e",
           "LP03": "d5532491a3c8e225",
           "C04": "5111bbc625f83e38",
+          "LP04": "2930b63a0938cc5d",
           "C05": "723210955a250c45",
-          "C06": "b81efea744a52872"
+          "C06": "b81efea744a52872",
+          "C07": "38005e5eb77e25df"
         }
       }
     }

@@ -268,7 +268,8 @@
       ["screening", "Screening", "probabilități post-test"], ["icer", "Plan cost–eficacitate", "decizii la prag"],
       ["sir", "Model SIR", "dinamica unei epidemii"], ["rose", "Paradoxul prevenției", "populație vs. risc înalt"],
       ["daly", "DALY", "YLL și YLD"], ["predictie", "Prezice și verifică", "estimare înaintea datelor"],
-      ["clasament", "Clasament dublu", "ordini după doi indicatori"]
+      ["clasament", "Clasament dublu", "ordini după doi indicatori"],
+      ["scenariu", "Scenariu ramificat", "decizii succesive și urmările lor"]
     ];
     var html = catalog.map(function (x, i) {
       var activ = !!tipuri[x[0]];

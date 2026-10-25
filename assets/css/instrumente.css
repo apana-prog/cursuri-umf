@@ -111,3 +111,24 @@
 }
 .widget .grafic .w-bara-cl { transform-box: fill-box; transform-origin: 0 50%; }
 .widget .grafic .w-rang { font-weight: 700; }
+
+/* ---------- scenariu (cazul ramificat: noduri, opțiuni, feedback, verdict) ---------- */
+.widget .sc-pas { font-size: .78rem; color: var(--muted); margin: .2rem 0 0; font-variant-numeric: tabular-nums; }
+.widget .sc-text { margin: .3rem 0 .9rem; }
+.widget .sc-text:focus-visible, .widget .sc-verdict:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+.widget .sc-optiuni { display: flex; flex-direction: column; gap: .5rem; margin: .4rem 0; }
+.widget .sc-opt { text-align: left; white-space: normal; min-height: 2.5rem; height: auto; }
+.widget .sc-opt[aria-disabled="true"] { cursor: default; color: var(--ink-2); }
+.widget .sc-opt[aria-pressed="true"] { color: var(--ink); background: var(--surface-2); border-color: var(--ink); font-weight: 600; }
+.widget .sc-feedback:empty { display: none; }
+.widget .sc-feedback { margin: .7rem 0 .2rem; padding: .6rem .8rem; background: var(--surface-2); border-left: 3px solid var(--axis); border-radius: var(--r-sm); }
+.widget .sc-feedback p { margin: .2rem 0; }
+.widget .sc-verdict { display: inline-block; margin: .3rem 0 .6rem; padding: .3rem .8rem; border-radius: 999px; font-weight: 700; color: var(--ink); background: var(--surface-2); }
+.widget .sc-v-buna { background: var(--tint-green); }
+.widget .sc-v-acceptabila { background: var(--tint-yellow); }
+.widget .sc-v-cu_urmari { background: var(--tint-orange); }
+.widget .sc-expl { margin: .3rem 0 .6rem; }
+.widget .sc-traseu-titlu { margin: .9rem 0 .2rem; font-size: .85rem; font-weight: 600; color: var(--ink-2); }
+.widget .sc-traseu { margin: 0; padding-left: 1.3rem; font-size: .88rem; color: var(--ink-2); }
+.widget .sc-traseu li { margin: .15rem 0; }
+.widget .sc-actiuni:empty { display: none; }
