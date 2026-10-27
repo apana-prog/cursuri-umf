@@ -1,9 +1,9 @@
 {
-  "construit": "2026-10-26",
+  "construit": "2026-10-27",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 23,
+      "pagini": 24,
       "widgets": 6,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 429,
+      "afirmatii_publicate": 440,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,7 +27,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 8,
+      "unitati_publicate": 9,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -38,7 +38,8 @@
           "C03": "10c1fa22f709f6bf",
           "LP03": "6441e3a042b8edf5",
           "C04": "cb7ba06f1f755ca5",
-          "LP04": "b999c58f9525b9e3"
+          "LP04": "b999c58f9525b9e3",
+          "C05": "b3c50b80dd5bf42a"
         }
       }
     },
@@ -53,7 +54,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 203,
+      "afirmatii_publicate": 214,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -66,14 +67,15 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 4,
+      "unitati_publicate": 5,
       "unitati_total": 7,
       "amprente": {
         "ro": {
           "C01": "4fe88dbee261365e",
           "C02": "08cb76598e6dba5f",
           "C03": "452131235bbdc3c3",
-          "C04": "5e8d2faac0fa07a7"
+          "C04": "5e8d2faac0fa07a7",
+          "C05": "4bba2d37c04c5884"
         }
       }
     },
@@ -198,7 +200,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 117,
+      "afirmatii_publicate": 173,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -266,7 +268,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 58,
+      "pagini": 59,
       "widgets": 7,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -278,7 +280,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 361,
+      "afirmatii_publicate": 387,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -309,7 +311,8 @@
           "LP04": "707f7adb4c589b78",
           "C05": "0287ee9b51922698",
           "C06": "7987f0e2659fcf3d",
-          "C07": "bf93e23576706d0e"
+          "C07": "bf93e23576706d0e",
+          "C08": "f65090f4d221b9cc"
         },
         "fr": {
           "C01": "b15951cb87534663",
