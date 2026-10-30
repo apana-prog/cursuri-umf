@@ -1,5 +1,5 @@
 {
-  "construit": "2026-10-28",
+  "construit": "2026-10-30",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 432,
+      "afirmatii_publicate": 451,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,7 +27,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 9,
+      "unitati_publicate": 8,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -38,14 +38,13 @@
           "C03": "10c1fa22f709f6bf",
           "LP03": "6441e3a042b8edf5",
           "C04": "cb7ba06f1f755ca5",
-          "LP04": "b999c58f9525b9e3",
-          "C05": "57467356ed244635"
+          "LP04": "b999c58f9525b9e3"
         }
       }
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 16,
+      "pagini": 17,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -54,7 +53,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 214,
+      "afirmatii_publicate": 233,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -81,7 +80,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 16,
+      "pagini": 17,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -117,7 +116,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 22,
+      "pagini": 23,
       "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -156,7 +155,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 18,
+      "pagini": 19,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -203,7 +202,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 173,
+      "afirmatii_publicate": 212,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -234,7 +233,7 @@
     },
     {
       "cod": "EPS_RI",
-      "pagini": 15,
+      "pagini": 16,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -244,7 +243,7 @@
         "ro": "Radiologie și imagistică, anul I",
         "en": "Radiology and Medical Imaging, Year I"
       },
-      "afirmatii_publicate": 88,
+      "afirmatii_publicate": 128,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -272,7 +271,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 61,
+      "pagini": 62,
       "widgets": 7,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
