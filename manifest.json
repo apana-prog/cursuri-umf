@@ -193,7 +193,7 @@
     {
       "cod": "EPS_I",
       "pagini": 25,
-      "widgets": 2,
+      "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
         "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
@@ -228,7 +228,7 @@
           "LP03": "32f3b3899241de60",
           "C04": "0c2fb8aae9a2332d",
           "LP04": "74f1958c684a3bdc",
-          "C05": "087ede334a1e1fee"
+          "C05": "d127a8cf6a3ef86d"
         }
       }
     },
