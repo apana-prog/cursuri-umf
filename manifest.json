@@ -273,7 +273,7 @@
     {
       "cod": "SPM_MGVI",
       "pagini": 68,
-      "widgets": 7,
+      "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
         "en": "„Iuliu Hațieganu” UMPh Cluj-Napoca, Faculty of Medicine",
@@ -331,7 +331,7 @@
           "C06": "b81efea744a52872",
           "C07": "38005e5eb77e25df",
           "C08": "85ae4236fceb1b66",
-          "C10": "e3805cda54084ae5"
+          "C10": "1f84ea916b05b8e2"
         }
       }
     }
