@@ -4,7 +4,7 @@
     {
       "cod": "SPM_AMGIV",
       "pagini": 25,
-      "widgets": 7,
+      "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
         "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
@@ -39,7 +39,7 @@
           "LP03": "6441e3a042b8edf5",
           "C04": "cb7ba06f1f755ca5",
           "LP04": "b999c58f9525b9e3",
-          "LP05": "f736eb81836b53b2"
+          "LP05": "1ed236e906dc9ed4"
         }
       }
     },
@@ -334,6 +334,38 @@
           "C08": "85ae4236fceb1b66",
           "C10": "1f84ea916b05b8e2"
         }
+      }
+    },
+    {
+      "cod": "ATMS_M1",
+      "pagini": 14,
+      "widgets": 2,
+      "institutie": {
+        "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
+        "en": "„Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Atestatul de management al serviciilor de sănătate, Modulul 1 (8 ore de curs)",
+        "en": "Health Services Management Certificate, Module 1"
+      },
+      "afirmatii_publicate": 0,
+      "titlu": {
+        "ro": "Sănătate publică, demografie și epidemiologie",
+        "en": "Public Health, Demography and Epidemiology"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Modulul 1 al atestatului de management al serviciilor de sănătate, pentru medicii specialiști și primari care ocupă sau doresc să ocupe o funcție de conducere: cum citește un manager starea de sănătate a populației pe care o deservește, cum folosește datele demografice și epidemiologice ca să dimensioneze serviciile și cum transformă o anchetă epidemiologică într-o decizie.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 7,
+      "amprente": {
+        "ro": {}
       }
     }
   ],

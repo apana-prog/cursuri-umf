@@ -10,7 +10,7 @@
       atlas: "Atlas vizual", portofoliu: "Portofoliul didactic", portofoliuN: "O privire comparabilă asupra disciplinelor și a stadiului publicării.",
       disciplina: "Semestrul dintr-o privire", disciplinaN: "Săptămâni, module și disponibilitate — derivate direct din planul disciplinei.",
       semestru: "Matricea semestrului", module: "Încărcarea pe module", acoperire: "Acoperirea publicării",
-      cursuri: "cursuri", lucrari: "lucrări practice", saptamani: "săptămâni", publicate: "unități publicate", din: "din",
+      cursuri: "cursuri", lucrari: "lucrări practice", saptamani: "săptămâni", saptamana: "săptămână", publicate: "unități publicate", din: "din",
       unitate: "Harta unității", unitateN: "Traseul de studiu și semnătura conținutului, calculate din pagina curentă.",
       traseu: "Traseul de studiu", semnatura: "Semnătura conținutului", lectura: "Harta de lectură",
       paragrafe: "paragrafe", vizuale: "tabele și figuri", activitati: "activități și instrumente", surse: "surse citate", sectiuni: "secțiuni",
@@ -31,7 +31,7 @@
       atlas: "Visual atlas", portofoliu: "Teaching portfolio", portofoliuN: "A comparable view of courses and publication progress.",
       disciplina: "The semester at a glance", disciplinaN: "Weeks, modules and availability — derived directly from the course plan.",
       semestru: "Semester matrix", module: "Module workload", acoperire: "Publication coverage",
-      cursuri: "lectures", lucrari: "practical sessions", saptamani: "weeks", publicate: "published units", din: "of",
+      cursuri: "lectures", lucrari: "practical sessions", saptamani: "weeks", saptamana: "week", publicate: "published units", din: "of",
       unitate: "Unit map", unitateN: "The learning pathway and content signature, computed from the current page.",
       traseu: "Learning pathway", semnatura: "Content signature", lectura: "Reading map",
       paragrafe: "paragraphs", vizuale: "tables and figures", activitati: "activities and tools", surse: "cited sources", sectiuni: "sections",
@@ -52,7 +52,7 @@
       atlas: "Atlas visuel", portofoliu: "Portefeuille pédagogique", portofoliuN: "Une vue comparable des enseignements et de leur publication.",
       disciplina: "Le semestre en un coup d’œil", disciplinaN: "Semaines, modules et disponibilité — dérivés directement du plan du cours.",
       semestru: "Matrice du semestre", module: "Charge par module", acoperire: "Couverture de publication",
-      cursuri: "cours", lucrari: "travaux pratiques", saptamani: "semaines", publicate: "unités publiées", din: "sur",
+      cursuri: "cours", lucrari: "travaux pratiques", saptamani: "semaines", saptamana: "semaine", publicate: "unités publiées", din: "sur",
       unitate: "Carte de l’unité", unitateN: "Le parcours d’apprentissage et la signature du contenu, calculés depuis la page.",
       traseu: "Parcours d’apprentissage", semnatura: "Signature du contenu", lectura: "Carte de lecture",
       paragrafe: "paragraphes", vizuale: "tableaux et figures", activitati: "activités et outils", surse: "sources citées", sectiuni: "sections",
@@ -173,7 +173,7 @@
     q(".atlas-grila", s).innerHTML = card("01", C.semestru, "lata") + matrice + '</article>' +
       card("02", C.acoperire, "") + '<div class="atlas-inel" style="--p:' + proc + '%"><span><strong>' + proc + '%</strong><small>' + publicate + ' ' + esc(C.din) + ' ' + total + '</small></span></div></article>' +
       card("03", C.module, "lata") + '<div class="atlas-bare">' + bare + '</div></article>' +
-      card("04", C.atlas, "") + '<div class="atlas-metrici"><div class="atlas-metrica" style="--c:var(--m1)"><strong>' + cursuri + '</strong><span>' + esc(C.cursuri) + '</span></div><div class="atlas-metrica" style="--c:var(--m2)"><strong>' + lp + '</strong><span>' + esc(C.lucrari) + '</span></div><div class="atlas-metrica" style="--c:var(--m4)"><strong>' + maxSapt + '</strong><span>' + esc(C.saptamani) + '</span></div></div></article>';
+      card("04", C.atlas, "") + '<div class="atlas-metrici"><div class="atlas-metrica" style="--c:var(--m1)"><strong>' + cursuri + '</strong><span>' + esc(C.cursuri) + '</span></div><div class="atlas-metrica" style="--c:var(--m2)"><strong>' + lp + '</strong><span>' + esc(C.lucrari) + '</span></div><div class="atlas-metrica" style="--c:var(--m4)"><strong>' + maxSapt + '</strong><span>' + esc(maxSapt === 1 ? C.saptamana : C.saptamani) + '</span></div></div></article>';
     var erou = q("main > .erou");
     if (erou) erou.after(s);
   }
