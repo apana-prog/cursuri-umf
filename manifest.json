@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 451,
+      "afirmatii_publicate": 454,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,7 +27,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 8,
+      "unitati_publicate": 9,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -38,7 +38,8 @@
           "C03": "10c1fa22f709f6bf",
           "LP03": "6441e3a042b8edf5",
           "C04": "cb7ba06f1f755ca5",
-          "LP04": "b999c58f9525b9e3"
+          "LP04": "b999c58f9525b9e3",
+          "LP05": "f736eb81836b53b2"
         }
       }
     },
