@@ -284,7 +284,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 471,
+      "afirmatii_publicate": 473,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -301,7 +301,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 12,
+      "unitati_publicate": 13,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -330,7 +330,8 @@
           "C05": "723210955a250c45",
           "C06": "b81efea744a52872",
           "C07": "38005e5eb77e25df",
-          "C08": "85ae4236fceb1b66"
+          "C08": "85ae4236fceb1b66",
+          "C10": "e3805cda54084ae5"
         }
       }
     }
