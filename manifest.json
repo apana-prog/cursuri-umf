@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-01",
+  "construit": "2026-11-02",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -46,7 +46,7 @@
     {
       "cod": "OPT_PLIC",
       "pagini": 18,
-      "widgets": 1,
+      "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
         "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
@@ -193,7 +193,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 25,
+      "pagini": 26,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -217,7 +217,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 9,
+      "unitati_publicate": 10,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -229,7 +229,8 @@
           "LP03": "32f3b3899241de60",
           "C04": "0c2fb8aae9a2332d",
           "LP04": "74f1958c684a3bdc",
-          "C05": "d127a8cf6a3ef86d"
+          "C05": "d127a8cf6a3ef86d",
+          "LP05": "118dde9d8711a381"
         }
       }
     },
@@ -273,8 +274,8 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 68,
-      "widgets": 8,
+      "pagini": 66,
+      "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
         "en": "„Iuliu Hațieganu” UMPh Cluj-Napoca, Faculty of Medicine",
@@ -285,7 +286,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 473,
+      "afirmatii_publicate": 474,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -302,7 +303,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 13,
+      "unitati_publicate": 15,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -315,9 +316,11 @@
           "C04": "6210de95c27ecb7e",
           "LP04": "707f7adb4c589b78",
           "C05": "0287ee9b51922698",
+          "LP05": "91019d9a9c8d6f09",
           "C06": "7987f0e2659fcf3d",
           "C07": "bf93e23576706d0e",
-          "C08": "f65090f4d221b9cc"
+          "C08": "f65090f4d221b9cc",
+          "C09": "5ee67347a80c0cb1"
         },
         "fr": {
           "C01": "b15951cb87534663",
