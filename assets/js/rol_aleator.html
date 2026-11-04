@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ro">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Rolul vostru</title></head>
+<body>
+<p>Se alege rolul vostru…</p>
+<p><small>CC BY-NC-SA 4.0. Pagină scrisă cu ajutorul Claude.</small></p>
+<script>
+// adresa: rol_aleator.html#<pagina>;<ancora1>,<ancora2>,… ; alege o ancoră la întâmplare și o păstrează pe telefon, deci rescanarea dă același rol
+var h = location.hash.slice(1).split(";"), a = h[1].split(","), k = "rol:" + h[0], r = null;
+try { r = localStorage.getItem(k); } catch (e) {}
+if (a.indexOf(r) < 0) {
+  r = a[Math.floor(Math.random() * a.length)];
+  try { localStorage.setItem(k, r); } catch (e) {}
+}
+location.replace("../../" + h[0] + "#" + r);
+</script>
+</body>
+</html>
