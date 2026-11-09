@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-05",
+  "construit": "2026-11-09",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 474,
+      "afirmatii_publicate": 500,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -55,7 +55,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 246,
+      "afirmatii_publicate": 273,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -83,7 +83,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 18,
+      "pagini": 20,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -92,7 +92,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 382,
+      "afirmatii_publicate": 433,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -109,18 +109,18 @@
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "f15c9cd809079921",
-          "C02": "eabb49c3a0153560",
-          "C03": "2c010f149d054a8d",
-          "C04": "d613d800310e5d3a",
-          "C05": "dc4d92c0084f02be",
-          "C06": "a3b9b8caca037e44"
+          "C01": "72e8103804165a3b",
+          "C02": "45f80818eac285db",
+          "C03": "092277bc926a497f",
+          "C04": "0e99a258ae33bfde",
+          "C05": "c1722460bfcccf52",
+          "C06": "fef6f0836159145d"
         }
       }
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 24,
+      "pagini": 25,
       "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -129,7 +129,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 271,
+      "afirmatii_publicate": 328,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -151,7 +151,7 @@
           "LP01": "5d7774b429640f5f",
           "C03": "6bcab9f38873837c",
           "LP02": "24d850048db5c32b",
-          "C04": "de33c61d935338ca",
+          "C04": "a28cdd9eb7fa1208",
           "LP03": "8f2ea78367afcfc5",
           "C05": "757ebbc1d2936ec1",
           "C06": "b39914e1f502bdba"
@@ -160,7 +160,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 19,
+      "pagini": 20,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -170,7 +170,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 174,
+      "afirmatii_publicate": 201,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -198,7 +198,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 27,
+      "pagini": 29,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -208,7 +208,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 245,
+      "afirmatii_publicate": 263,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -222,7 +222,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 10,
+      "unitati_publicate": 11,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -235,7 +235,8 @@
           "C04": "0c2fb8aae9a2332d",
           "LP04": "74f1958c684a3bdc",
           "C05": "d127a8cf6a3ef86d",
-          "LP05": "118dde9d8711a381"
+          "LP05": "118dde9d8711a381",
+          "C06": "d3144fbe20f55a64"
         }
       }
     },
@@ -251,7 +252,7 @@
         "ro": "Radiologie și imagistică, anul I",
         "en": "Radiology and Medical Imaging, Year I"
       },
-      "afirmatii_publicate": 128,
+      "afirmatii_publicate": 168,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -280,7 +281,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 74,
+      "pagini": 79,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -292,7 +293,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 608,
+      "afirmatii_publicate": 613,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -309,7 +310,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 15,
+      "unitati_publicate": 16,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -327,7 +328,8 @@
           "C07": "bf93e23576706d0e",
           "C08": "f65090f4d221b9cc",
           "C09": "c53a35fdb46981ec",
-          "C10": "88a1e0b934368095"
+          "C10": "88a1e0b934368095",
+          "C11": "4a2a945bf176e879"
         },
         "fr": {
           "C01": "b15951cb87534663",
@@ -344,7 +346,8 @@
           "C07": "38005e5eb77e25df",
           "C08": "85ae4236fceb1b66",
           "C09": "205535362f01a241",
-          "C10": "1f84ea916b05b8e2"
+          "C10": "1f84ea916b05b8e2",
+          "C11": "cd51b42f3071a038"
         }
       }
     },
