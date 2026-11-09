@@ -72,12 +72,12 @@
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "69b8f7741712de51",
-          "C02": "f4c34337687299e8",
-          "C03": "fe0b663eae66246c",
-          "C04": "8336b0914485dc41",
-          "C05": "0df782d2ea16adf1",
-          "C06": "9ba49c8c1d042324"
+          "C01": "b2b3373e91d76cf0",
+          "C02": "72955748094f3a99",
+          "C03": "4e8a43ebba4f8be1",
+          "C04": "4b26592750e45c6d",
+          "C05": "f1d8587a74a0da75",
+          "C06": "c2e1b20abc55b3dc"
         }
       }
     },
@@ -146,15 +146,15 @@
       "unitati_total": 10,
       "amprente": {
         "ro": {
-          "C01": "5a89128a561367f6",
-          "C02": "70a31f9510668d3c",
+          "C01": "cfdf4e4e8e160d60",
+          "C02": "e2f56fe2c7c126bc",
           "LP01": "5d7774b429640f5f",
-          "C03": "6bcab9f38873837c",
+          "C03": "2e29ce889d742ee6",
           "LP02": "24d850048db5c32b",
-          "C04": "a28cdd9eb7fa1208",
+          "C04": "c069c117b0d65a1a",
           "LP03": "8f2ea78367afcfc5",
-          "C05": "757ebbc1d2936ec1",
-          "C06": "b39914e1f502bdba"
+          "C05": "64a041f6f7a421af",
+          "C06": "008bf904d9305d85"
         }
       }
     },
@@ -198,7 +198,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 29,
+      "pagini": 28,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -236,7 +236,7 @@
           "LP04": "74f1958c684a3bdc",
           "C05": "d127a8cf6a3ef86d",
           "LP05": "118dde9d8711a381",
-          "C06": "d3144fbe20f55a64"
+          "C06": "f1452735f18349b9"
         }
       }
     },
