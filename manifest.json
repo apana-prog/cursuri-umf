@@ -198,7 +198,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 28,
+      "pagini": 29,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -236,7 +236,7 @@
           "LP04": "74f1958c684a3bdc",
           "C05": "d127a8cf6a3ef86d",
           "LP05": "118dde9d8711a381",
-          "C06": "f1452735f18349b9"
+          "C06": "4f5d492de6ff5b6b"
         }
       }
     },
