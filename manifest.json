@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-09",
+  "construit": "2026-11-10",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -208,7 +208,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 263,
+      "afirmatii_publicate": 309,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -293,7 +293,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 613,
+      "afirmatii_publicate": 665,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
