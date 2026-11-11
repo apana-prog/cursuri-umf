@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 508,
+      "afirmatii_publicate": 505,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,7 +27,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 12,
+      "unitati_publicate": 11,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -41,7 +41,6 @@
           "LP04": "b999c58f9525b9e3",
           "C05": "57467356ed244635",
           "LP05": "1ed236e906dc9ed4",
-          "C06": "a1a66f19f26b1f71",
           "LP06": "cd59ad2b1e3efb5a"
         }
       }
@@ -165,7 +164,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 20,
+      "pagini": 21,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -175,7 +174,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 216,
+      "afirmatii_publicate": 245,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -189,7 +188,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 8,
       "unitati_total": 8,
       "amprente": {
         "ro": {
@@ -198,7 +197,9 @@
           "C02": "cc1a4e94f7c28691",
           "LP02": "535d16b1f2fffd52",
           "C03": "1eb336208234b48b",
-          "C04": "a16b21ffda3ee82e"
+          "LP03": "26fef84fbc5c8d6d",
+          "C04": "a16b21ffda3ee82e",
+          "LP04": "a7d9a223377def4b"
         }
       }
     },
