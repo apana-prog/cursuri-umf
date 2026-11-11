@@ -3,7 +3,7 @@
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 29,
+      "pagini": 30,
       "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 500,
+      "afirmatii_publicate": 508,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,12 +27,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 10,
+      "unitati_publicate": 12,
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "73672e78545e1f97",
-          "LP01": "cd34500955445b1f",
+          "C01": "54a05e3e7faf1497",
+          "LP01": "82562d133c70503c",
           "C02": "cbbb5f43c250b3db",
           "LP02": "985b4f3aa059a239",
           "C03": "1edddd286fc0032f",
@@ -40,7 +40,9 @@
           "C04": "cb7ba06f1f755ca5",
           "LP04": "b999c58f9525b9e3",
           "C05": "57467356ed244635",
-          "LP05": "1ed236e906dc9ed4"
+          "LP05": "1ed236e906dc9ed4",
+          "C06": "a1a66f19f26b1f71",
+          "LP06": "cd59ad2b1e3efb5a"
         }
       }
     },
@@ -55,7 +57,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 273,
+      "afirmatii_publicate": 275,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -68,7 +70,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 7,
       "unitati_total": 7,
       "amprente": {
         "ro": {
@@ -77,7 +79,8 @@
           "C03": "4e8a43ebba4f8be1",
           "C04": "4b26592750e45c6d",
           "C05": "f1d8587a74a0da75",
-          "C06": "c2e1b20abc55b3dc"
+          "C06": "c2e1b20abc55b3dc",
+          "C07": "1733ff5d80499ead"
         }
       }
     },
@@ -130,7 +133,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 328,
+      "afirmatii_publicate": 330,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -143,11 +146,11 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 9,
+      "unitati_publicate": 10,
       "unitati_total": 10,
       "amprente": {
         "ro": {
-          "C01": "cfdf4e4e8e160d60",
+          "C01": "d9484c0d50f99cc4",
           "C02": "e2f56fe2c7c126bc",
           "LP01": "5d7774b429640f5f",
           "C03": "2e29ce889d742ee6",
@@ -155,7 +158,8 @@
           "C04": "c069c117b0d65a1a",
           "LP03": "8f2ea78367afcfc5",
           "C05": "64a041f6f7a421af",
-          "C06": "008bf904d9305d85"
+          "C06": "008bf904d9305d85",
+          "C07": "c5208c84e11d354a"
         }
       }
     },
@@ -171,7 +175,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 215,
+      "afirmatii_publicate": 216,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -189,18 +193,18 @@
       "unitati_total": 8,
       "amprente": {
         "ro": {
-          "C01": "dec6b58080600d56",
-          "LP01": "a3ad7a7ea9069b6c",
-          "C02": "9b2088db2b2628e0",
+          "C01": "b88e54fc4f5e5a16",
+          "LP01": "c612aa8f90872ea9",
+          "C02": "cc1a4e94f7c28691",
           "LP02": "535d16b1f2fffd52",
           "C03": "1eb336208234b48b",
-          "C04": "937d106ba0ae9e3f"
+          "C04": "a16b21ffda3ee82e"
         }
       }
     },
     {
       "cod": "EPS_I",
-      "pagini": 30,
+      "pagini": 31,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -210,7 +214,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 309,
+      "afirmatii_publicate": 310,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -224,7 +228,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 11,
+      "unitati_publicate": 12,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -238,7 +242,8 @@
           "LP04": "74f1958c684a3bdc",
           "C05": "d127a8cf6a3ef86d",
           "LP05": "118dde9d8711a381",
-          "C06": "4f5d492de6ff5b6b"
+          "C06": "4f5d492de6ff5b6b",
+          "LP06": "8d621dee50f59a49"
         }
       }
     },
@@ -268,7 +273,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 7,
       "unitati_total": 7,
       "amprente": {
         "ro": {
@@ -277,13 +282,14 @@
           "LP01": "f2d0565de08f8776",
           "C03": "88e65857cc8cdc4a",
           "LP02": "7f33fe58cec0e298",
-          "C04": "fcfaf0b44901df54"
+          "C04": "fcfaf0b44901df54",
+          "LP03": "02e8e8e51cbba150"
         }
       }
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 82,
+      "pagini": 81,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -295,7 +301,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 665,
+      "afirmatii_publicate": 670,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -312,14 +318,14 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 16,
+      "unitati_publicate": 17,
       "unitati_total": 28,
       "amprente": {
         "ro": {
           "C01": "453756d1b824f900",
           "LP01": "b0af482ace50516d",
           "C02": "91ea9312bf7b5a3e",
-          "LP02": "52c9048381f20302",
+          "LP02": "a9f1d49226e2cf1f",
           "C03": "3b4e3b73f5a54346",
           "LP03": "9d7fa19359ac20d7",
           "C04": "6210de95c27ecb7e",
@@ -331,13 +337,14 @@
           "C08": "f65090f4d221b9cc",
           "C09": "c53a35fdb46981ec",
           "C10": "88a1e0b934368095",
-          "C11": "4a2a945bf176e879"
+          "C11": "4a2a945bf176e879",
+          "C12": "9437bf90bcc0dd25"
         },
         "fr": {
           "C01": "b15951cb87534663",
           "LP01": "2161cf9e901a7738",
           "C02": "2f577253983220ec",
-          "LP02": "4b7ee01cf31d09db",
+          "LP02": "d2f17d08f306ab07",
           "C03": "e5afe59970a8250e",
           "LP03": "d5532491a3c8e225",
           "C04": "5111bbc625f83e38",
@@ -383,6 +390,40 @@
       "unitati_total": 7,
       "amprente": {
         "ro": {}
+      }
+    },
+    {
+      "cod": "HEOR_PLAN",
+      "pagini": 14,
+      "widgets": 0,
+      "institutie": {
+        "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Masteratul „Health Economics and Outcomes Research” (Economia sănătății și cercetarea rezultatelor clinice), anul I, semestrul I",
+        "en": "Master's programme in Health Economics and Outcomes Research, year I, semester I"
+      },
+      "afirmatii_publicate": 10,
+      "titlu": {
+        "ro": "Planificarea în sănătate",
+        "en": "Planning for Health"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Cum se planifică serviciile de sănătate pentru o populație și pentru o organizație: ce este planificarea și cine o face, contextul social și al sistemului de sănătate din România, nevoia, cererea și utilizarea serviciilor, evaluarea nevoilor comunității, procesul și auditul de planificare, planul de afaceri, planificarea strategică și de marketing. Patru module de câte 4 ore (două în sală, două online), fiecare construit în jurul unui singur caz; activitățile practice, individuale și în echipă, se fac în afara orelor, cu mentorat la cerere.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 1,
+      "unitati_total": 7,
+      "amprente": {
+        "ro": {
+          "C01": "d283318999415f9d"
+        }
       }
     }
   ],
