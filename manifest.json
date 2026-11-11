@@ -1,9 +1,9 @@
 {
-  "construit": "2026-11-10",
+  "construit": "2026-11-11",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 27,
+      "pagini": 29,
       "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -35,7 +35,7 @@
           "LP01": "cd34500955445b1f",
           "C02": "cbbb5f43c250b3db",
           "LP02": "985b4f3aa059a239",
-          "C03": "10c1fa22f709f6bf",
+          "C03": "200ce293dec8af41",
           "LP03": "6441e3a042b8edf5",
           "C04": "cb7ba06f1f755ca5",
           "LP04": "b999c58f9525b9e3",
@@ -46,7 +46,7 @@
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 19,
+      "pagini": 20,
       "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -92,7 +92,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 433,
+      "afirmatii_publicate": 442,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -105,7 +105,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 6,
+      "unitati_publicate": 7,
       "unitati_total": 7,
       "amprente": {
         "ro": {
@@ -114,13 +114,14 @@
           "C03": "092277bc926a497f",
           "C04": "0e99a258ae33bfde",
           "C05": "c1722460bfcccf52",
-          "C06": "fef6f0836159145d"
+          "C06": "fef6f0836159145d",
+          "C07": "ed1eee3aa5acb456"
         }
       }
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 25,
+      "pagini": 26,
       "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -170,7 +171,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 201,
+      "afirmatii_publicate": 215,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -184,7 +185,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 5,
+      "unitati_publicate": 6,
       "unitati_total": 8,
       "amprente": {
         "ro": {
@@ -192,13 +193,14 @@
           "LP01": "a3ad7a7ea9069b6c",
           "C02": "9b2088db2b2628e0",
           "LP02": "535d16b1f2fffd52",
-          "C03": "1eb336208234b48b"
+          "C03": "1eb336208234b48b",
+          "C04": "937d106ba0ae9e3f"
         }
       }
     },
     {
       "cod": "EPS_I",
-      "pagini": 29,
+      "pagini": 30,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -232,7 +234,7 @@
           "LP02": "aef7088997bcaa5e",
           "C03": "88e65857cc8cdc4a",
           "LP03": "32f3b3899241de60",
-          "C04": "0c2fb8aae9a2332d",
+          "C04": "0e389520626a5d6c",
           "LP04": "74f1958c684a3bdc",
           "C05": "d127a8cf6a3ef86d",
           "LP05": "118dde9d8711a381",
@@ -242,7 +244,7 @@
     },
     {
       "cod": "EPS_RI",
-      "pagini": 18,
+      "pagini": 19,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -267,7 +269,7 @@
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 6,
-      "unitati_total": 6,
+      "unitati_total": 7,
       "amprente": {
         "ro": {
           "C01": "b8ab5258bd73d8d6",
@@ -281,7 +283,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 79,
+      "pagini": 82,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
