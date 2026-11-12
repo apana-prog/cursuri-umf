@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-11",
+  "construit": "2026-11-12",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 505,
+      "afirmatii_publicate": 531,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -47,7 +47,7 @@
     },
     {
       "cod": "OPT_PLIC",
-      "pagini": 20,
+      "pagini": 21,
       "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -215,7 +215,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 310,
+      "afirmatii_publicate": 357,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -250,7 +250,7 @@
     },
     {
       "cod": "EPS_RI",
-      "pagini": 19,
+      "pagini": 20,
       "widgets": 4,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -290,7 +290,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 81,
+      "pagini": 82,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -395,7 +395,7 @@
     },
     {
       "cod": "HEOR_PLAN",
-      "pagini": 15,
+      "pagini": 30,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” Cluj-Napoca",
@@ -411,19 +411,91 @@
         "en": "Planning for Health"
       },
       "limbi": [
-        "ro"
+        "ro",
+        "en"
       ],
       "limba_canonica": "ro",
       "descriere": {
         "ro": "Cum se planifică serviciile de sănătate pentru o populație și pentru o organizație: ce este planificarea și cine o face, contextul social și al sistemului de sănătate din România, nevoia, cererea și utilizarea serviciilor, evaluarea nevoilor comunității, procesul și auditul de planificare, planul de afaceri, planificarea strategică și de marketing. Patru module de câte 4 ore (două în sală, două online), fiecare construit în jurul unui singur caz; activitățile practice, individuale și în echipă, se fac în afara orelor, cu mentorat la cerere.",
-        "en": ""
+        "en": "How health services are planned for a population and for an organisation: what planning is and who does it, the social and health system context in Romania, the need, demand and utilisation of services, community needs assessment, the planning process and the planning audit, the business plan, strategic and marketing planning. Four modules of 4 hours each (two in the classroom, two online), each built around a single case; the practical activities, individual and in teams, take place outside class hours, with mentoring on request."
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 1,
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "d283318999415f9d"
+          "C01": "dbb013619306e158"
+        },
+        "en": {
+          "C01": "40d4255f7e12b7ce"
+        }
+      }
+    },
+    {
+      "cod": "REZ_ISSR",
+      "pagini": 9,
+      "widgets": 0,
+      "institutie": {
+        "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
+        "en": ""
+      },
+      "program": {
+        "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
+        "en": ""
+      },
+      "afirmatii_publicate": 1,
+      "titlu": {
+        "ro": "Istoria sănătății publice și a sistemului de sănătate din România",
+        "en": ""
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Cursul pentru medicii rezidenți despre istoria sănătății publice și a sistemului de sănătate din România, de la perioada interbelică la prezent. Primele 12 teme s-au predat înainte de introducerea cursului în atelier; materialele publicate încep cu tema 13.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 1,
+      "unitati_total": 1,
+      "amprente": {
+        "ro": {
+          "C13": "0ed5355f72408994"
+        }
+      }
+    },
+    {
+      "cod": "REZ_VSPG",
+      "pagini": 8,
+      "widgets": 0,
+      "institutie": {
+        "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
+        "en": ""
+      },
+      "program": {
+        "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
+        "en": ""
+      },
+      "afirmatii_publicate": 3,
+      "titlu": {
+        "ro": "Viitorul sănătății publice globale",
+        "en": ""
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "Cursul pentru medicii rezidenți despre viitorul sănătății publice globale: policriza, tranzițiile sindemice, sănătatea planetară, tehnologia, finanțarea și echitatea. Primele 6 teme s-au predat înainte de introducerea cursului în atelier; materialele publicate încep cu tema 7.",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 1,
+      "unitati_total": 1,
+      "amprente": {
+        "ro": {
+          "C07": "eb47a43259330501"
         }
       }
     }
