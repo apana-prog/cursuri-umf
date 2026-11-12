@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-12",
+  "construit": "2026-11-13",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -56,7 +56,7 @@
       "program": {
         "ro": "Medicină, anul IV — disciplină opțională"
       },
-      "afirmatii_publicate": 275,
+      "afirmatii_publicate": 310,
       "titlu": {
         "ro": "Câte vieți costă un plic? Corupție, sistem și sănătate în România"
       },
@@ -85,7 +85,7 @@
     },
     {
       "cod": "OPT_DROGURI",
-      "pagini": 20,
+      "pagini": 21,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -123,7 +123,7 @@
     },
     {
       "cod": "OPT_DETECTIVI",
-      "pagini": 26,
+      "pagini": 27,
       "widgets": 2,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -164,7 +164,7 @@
     },
     {
       "cod": "SPM_BFKIII",
-      "pagini": 21,
+      "pagini": 23,
       "widgets": 1,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -260,7 +260,7 @@
         "ro": "Radiologie și imagistică, anul I",
         "en": "Radiology and Medical Imaging, Year I"
       },
-      "afirmatii_publicate": 168,
+      "afirmatii_publicate": 195,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -290,7 +290,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 84,
+      "pagini": 86,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -302,7 +302,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 706,
+      "afirmatii_publicate": 751,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -319,7 +319,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 17,
+      "unitati_publicate": 18,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -334,6 +334,7 @@
           "C05": "0287ee9b51922698",
           "LP05": "91019d9a9c8d6f09",
           "C06": "7987f0e2659fcf3d",
+          "LP06": "5f54a7b8641bafbd",
           "C07": "bf93e23576706d0e",
           "C08": "f65090f4d221b9cc",
           "C09": "c53a35fdb46981ec",
@@ -353,6 +354,7 @@
           "C05": "723210955a250c45",
           "LP05": "82993f80b12c2b29",
           "C06": "b81efea744a52872",
+          "LP06": "a269ccf42838ed6c",
           "C07": "38005e5eb77e25df",
           "C08": "85ae4236fceb1b66",
           "C09": "205535362f01a241",
@@ -406,7 +408,7 @@
         "ro": "Masteratul „Health Economics and Outcomes Research” (Economia sănătății și cercetarea rezultatelor clinice), anul I, semestrul I",
         "en": "Master's programme in Health Economics and Outcomes Research, year I, semester I"
       },
-      "afirmatii_publicate": 10,
+      "afirmatii_publicate": 70,
       "titlu": {
         "ro": "Planificarea în sănătate",
         "en": "Planning for Health"
@@ -444,7 +446,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 1,
+      "afirmatii_publicate": 42,
       "titlu": {
         "ro": "Istoria sănătății publice și a sistemului de sănătate din România",
         "en": ""
@@ -468,7 +470,7 @@
     },
     {
       "cod": "REZ_VSPG",
-      "pagini": 8,
+      "pagini": 9,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
