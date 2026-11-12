@@ -290,7 +290,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 82,
+      "pagini": 83,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -302,7 +302,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 670,
+      "afirmatii_publicate": 706,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -357,7 +357,8 @@
           "C08": "85ae4236fceb1b66",
           "C09": "205535362f01a241",
           "C10": "1f84ea916b05b8e2",
-          "C11": "cd51b42f3071a038"
+          "C11": "cd51b42f3071a038",
+          "C12": "61209972a6e47314"
         }
       }
     },
