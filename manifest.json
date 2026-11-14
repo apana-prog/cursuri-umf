@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-13",
+  "construit": "2026-11-14",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -94,7 +94,7 @@
       "program": {
         "ro": "Medicină, anul III — disciplină opțională"
       },
-      "afirmatii_publicate": 442,
+      "afirmatii_publicate": 480,
       "titlu": {
         "ro": "Creierul tău pe droguri: neuroștiința adicției și 50 de ani de politici eșuate"
       },
@@ -132,7 +132,7 @@
       "program": {
         "ro": "Medicină, anul II — disciplină opțională"
       },
-      "afirmatii_publicate": 330,
+      "afirmatii_publicate": 371,
       "titlu": {
         "ro": "Detectivii epidemiilor: cum ucid bolile milioane de oameni și cum le oprim"
       },
@@ -174,7 +174,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul III",
         "en": "Physiotherapy and Rehabilitation, Year III"
       },
-      "afirmatii_publicate": 245,
+      "afirmatii_publicate": 252,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -205,7 +205,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 31,
+      "pagini": 32,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -215,7 +215,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 357,
+      "afirmatii_publicate": 365,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -229,7 +229,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 12,
+      "unitati_publicate": 13,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -244,7 +244,8 @@
           "C05": "d127a8cf6a3ef86d",
           "LP05": "118dde9d8711a381",
           "C06": "4f5d492de6ff5b6b",
-          "LP06": "8d621dee50f59a49"
+          "LP06": "8d621dee50f59a49",
+          "C07": "e522f2ef8bcc8a6d"
         }
       }
     },
@@ -290,7 +291,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 86,
+      "pagini": 88,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -480,7 +481,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 3,
+      "afirmatii_publicate": 42,
       "titlu": {
         "ro": "Viitorul sănătății publice globale",
         "en": ""
@@ -498,7 +499,7 @@
       "unitati_total": 2,
       "amprente": {
         "ro": {
-          "C07": "eb47a43259330501"
+          "C07": "9abcea063990ca05"
         }
       }
     }
