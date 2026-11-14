@@ -291,7 +291,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 88,
+      "pagini": 90,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -303,7 +303,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 751,
+      "afirmatii_publicate": 752,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -320,7 +320,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 18,
+      "unitati_publicate": 19,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -361,7 +361,8 @@
           "C09": "205535362f01a241",
           "C10": "1f84ea916b05b8e2",
           "C11": "cd51b42f3071a038",
-          "C12": "61209972a6e47314"
+          "C12": "61209972a6e47314",
+          "C13": "7b24fa920c448f5b"
         }
       }
     },
