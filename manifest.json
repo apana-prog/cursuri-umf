@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-14",
+  "construit": "2026-11-15",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -303,7 +303,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 752,
+      "afirmatii_publicate": 755,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -320,7 +320,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 19,
+      "unitati_publicate": 20,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -362,7 +362,8 @@
           "C10": "1f84ea916b05b8e2",
           "C11": "cd51b42f3071a038",
           "C12": "61209972a6e47314",
-          "C13": "7b24fa920c448f5b"
+          "C13": "ac3bedadbe7d05e3",
+          "C14": "1a92db773892f5cb"
         }
       }
     },
