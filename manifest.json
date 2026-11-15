@@ -3,7 +3,7 @@
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 30,
+      "pagini": 31,
       "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 531,
+      "afirmatii_publicate": 549,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -27,21 +27,22 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 11,
+      "unitati_publicate": 12,
       "unitati_total": 14,
       "amprente": {
         "ro": {
-          "C01": "54a05e3e7faf1497",
-          "LP01": "82562d133c70503c",
-          "C02": "cbbb5f43c250b3db",
+          "C01": "e15fcab34a2988f9",
+          "LP01": "425e7600c856e674",
+          "C02": "d35ed920050d7794",
           "LP02": "985b4f3aa059a239",
-          "C03": "1edddd286fc0032f",
+          "C03": "548982918961cbe6",
           "LP03": "6441e3a042b8edf5",
-          "C04": "cb7ba06f1f755ca5",
+          "C04": "0a16d37efcc2fc15",
           "LP04": "b999c58f9525b9e3",
-          "C05": "57467356ed244635",
+          "C05": "db006e6f7c80fd04",
           "LP05": "1ed236e906dc9ed4",
-          "LP06": "cd59ad2b1e3efb5a"
+          "LP06": "cd59ad2b1e3efb5a",
+          "LP07": "3214b44984107a4e"
         }
       }
     },
@@ -73,11 +74,11 @@
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "b2b3373e91d76cf0",
+          "C01": "83ed20cbde5fefd3",
           "C02": "72955748094f3a99",
           "C03": "4e8a43ebba4f8be1",
-          "C04": "4b26592750e45c6d",
-          "C05": "f1d8587a74a0da75",
+          "C04": "1d635db455d39734",
+          "C05": "3ac470b98d402a45",
           "C06": "c2e1b20abc55b3dc",
           "C07": "1733ff5d80499ead"
         }
@@ -149,12 +150,12 @@
       "unitati_total": 10,
       "amprente": {
         "ro": {
-          "C01": "d9484c0d50f99cc4",
+          "C01": "c1197eafc3833a46",
           "C02": "e2f56fe2c7c126bc",
           "LP01": "5d7774b429640f5f",
           "C03": "2e29ce889d742ee6",
           "LP02": "24d850048db5c32b",
-          "C04": "c069c117b0d65a1a",
+          "C04": "0efd7ac0eeeecdcf",
           "LP03": "8f2ea78367afcfc5",
           "C05": "64a041f6f7a421af",
           "C06": "008bf904d9305d85",
@@ -192,13 +193,13 @@
       "unitati_total": 8,
       "amprente": {
         "ro": {
-          "C01": "b88e54fc4f5e5a16",
+          "C01": "1018986613e7cdd0",
           "LP01": "c612aa8f90872ea9",
-          "C02": "cc1a4e94f7c28691",
+          "C02": "9d51e93b094af762",
           "LP02": "535d16b1f2fffd52",
-          "C03": "1eb336208234b48b",
+          "C03": "a8623eeb69ca86ab",
           "LP03": "26fef84fbc5c8d6d",
-          "C04": "a16b21ffda3ee82e",
+          "C04": "d3b8117b72cf6d8a",
           "LP04": "1ac95e0e706a3dbb"
         }
       }
@@ -245,7 +246,7 @@
           "LP05": "118dde9d8711a381",
           "C06": "4f5d492de6ff5b6b",
           "LP06": "8d621dee50f59a49",
-          "C07": "e522f2ef8bcc8a6d"
+          "C07": "1ac0b65a725e9e70"
         }
       }
     },
@@ -291,7 +292,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 90,
+      "pagini": 92,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -303,7 +304,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 755,
+      "afirmatii_publicate": 761,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -320,7 +321,7 @@
         "fr": "Notes de cours, travaux pratiques et outils interactifs pour la discipline Santé publique et gestion (Médecine, 6e année)."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 20,
+      "unitati_publicate": 21,
       "unitati_total": 28,
       "amprente": {
         "ro": {
@@ -332,13 +333,13 @@
           "LP03": "9d7fa19359ac20d7",
           "C04": "6210de95c27ecb7e",
           "LP04": "707f7adb4c589b78",
-          "C05": "0287ee9b51922698",
+          "C05": "50b1cc3e57f7e27b",
           "LP05": "91019d9a9c8d6f09",
-          "C06": "7987f0e2659fcf3d",
+          "C06": "9a2fcc21920924a6",
           "LP06": "5f54a7b8641bafbd",
           "C07": "bf93e23576706d0e",
-          "C08": "f65090f4d221b9cc",
-          "C09": "c53a35fdb46981ec",
+          "C08": "fd177a3d4ea85dee",
+          "C09": "4de7766284d4f50c",
           "C10": "88a1e0b934368095",
           "C11": "4a2a945bf176e879",
           "C12": "9437bf90bcc0dd25"
@@ -357,6 +358,7 @@
           "C06": "b81efea744a52872",
           "LP06": "a269ccf42838ed6c",
           "C07": "38005e5eb77e25df",
+          "LP07": "ffa4720e1f396edf",
           "C08": "85ae4236fceb1b66",
           "C09": "205535362f01a241",
           "C10": "1f84ea916b05b8e2",
@@ -467,7 +469,7 @@
       "unitati_total": 2,
       "amprente": {
         "ro": {
-          "C13": "0ed5355f72408994"
+          "C13": "e4b74e3c0a9977a6"
         }
       }
     },
