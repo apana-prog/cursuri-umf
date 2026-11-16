@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-15",
+  "construit": "2026-11-16",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -206,7 +206,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 32,
+      "pagini": 34,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -292,7 +292,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 92,
+      "pagini": 93,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -342,7 +342,8 @@
           "C09": "4de7766284d4f50c",
           "C10": "88a1e0b934368095",
           "C11": "4a2a945bf176e879",
-          "C12": "9437bf90bcc0dd25"
+          "C12": "9437bf90bcc0dd25",
+          "C13": "68708fecd0509bc2"
         },
         "fr": {
           "C01": "b15951cb87534663",
@@ -358,7 +359,7 @@
           "C06": "b81efea744a52872",
           "LP06": "a269ccf42838ed6c",
           "C07": "38005e5eb77e25df",
-          "LP07": "ffa4720e1f396edf",
+          "LP07": "0bf9cd4ab8c2c984",
           "C08": "85ae4236fceb1b66",
           "C09": "205535362f01a241",
           "C10": "1f84ea916b05b8e2",
@@ -475,7 +476,7 @@
     },
     {
       "cod": "REZ_VSPG",
-      "pagini": 9,
+      "pagini": 10,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
