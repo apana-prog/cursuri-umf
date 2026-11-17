@@ -1,9 +1,9 @@
 {
-  "construit": "2026-11-16",
+  "construit": "2026-11-17",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 31,
+      "pagini": 32,
       "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -216,7 +216,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 365,
+      "afirmatii_publicate": 393,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -292,7 +292,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 93,
+      "pagini": 95,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -338,12 +338,14 @@
           "C06": "9a2fcc21920924a6",
           "LP06": "5f54a7b8641bafbd",
           "C07": "bf93e23576706d0e",
+          "LP07": "869875f5abdc0fbc",
           "C08": "fd177a3d4ea85dee",
           "C09": "4de7766284d4f50c",
           "C10": "88a1e0b934368095",
           "C11": "4a2a945bf176e879",
           "C12": "9437bf90bcc0dd25",
-          "C13": "68708fecd0509bc2"
+          "C13": "68708fecd0509bc2",
+          "C14": "d744df78bc4c40fd"
         },
         "fr": {
           "C01": "b15951cb87534663",
