@@ -216,7 +216,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 393,
+      "afirmatii_publicate": 397,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -230,7 +230,7 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 13,
+      "unitati_publicate": 14,
       "unitati_total": 14,
       "amprente": {
         "ro": {
@@ -246,7 +246,8 @@
           "LP05": "118dde9d8711a381",
           "C06": "4f5d492de6ff5b6b",
           "LP06": "8d621dee50f59a49",
-          "C07": "1ac0b65a725e9e70"
+          "C07": "7ba6ef4c398410e6",
+          "LP07": "6f5db2d731631875"
         }
       }
     },
