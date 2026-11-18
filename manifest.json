@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-17",
+  "construit": "2026-11-18",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -206,7 +206,7 @@
     },
     {
       "cod": "EPS_I",
-      "pagini": 34,
+      "pagini": 35,
       "widgets": 3,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -293,7 +293,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 95,
+      "pagini": 96,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -385,7 +385,7 @@
         "ro": "Atestatul de management al serviciilor de sănătate, Modulul 1 (8 ore de curs)",
         "en": "Health Services Management Certificate, Module 1"
       },
-      "afirmatii_publicate": 0,
+      "afirmatii_publicate": 22,
       "titlu": {
         "ro": "Sănătate publică, demografie și epidemiologie",
         "en": "Public Health, Demography and Epidemiology"
@@ -399,10 +399,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 0,
+      "unitati_publicate": 1,
       "unitati_total": 7,
       "amprente": {
-        "ro": {}
+        "ro": {
+          "C01": "23e2861f507e4318"
+        }
       }
     },
     {
