@@ -492,7 +492,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 42,
+      "afirmatii_publicate": 46,
       "titlu": {
         "ro": "Viitorul sănătății publice globale",
         "en": ""
@@ -506,11 +506,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 1,
+      "unitati_publicate": 2,
       "unitati_total": 2,
       "amprente": {
         "ro": {
-          "C07": "9abcea063990ca05"
+          "C07": "9abcea063990ca05",
+          "C08": "d7a1904806ef061c"
         }
       }
     }
