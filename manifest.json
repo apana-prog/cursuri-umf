@@ -48,6 +48,42 @@
       }
     },
     {
+      "cod": "SPM_AMGIV_BM",
+      "pagini": 13,
+      "widgets": 8,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Asistență medicală generală, Baia Mare, anul IV",
+        "en": "General Nursing, Baia Mare, Year IV"
+      },
+      "afirmatii_publicate": 39,
+      "titlu": {
+        "ro": "Sănătate publică și management",
+        "en": "Public Health and Management"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 3,
+      "unitati_total": 3,
+      "amprente": {
+        "ro": {
+          "C01": "f0399e377f40c0e5",
+          "C02": "d35ed920050d7794",
+          "C03": "548982918961cbe6"
+        }
+      }
+    },
+    {
       "cod": "OPT_PLIC",
       "pagini": 21,
       "widgets": 2,
@@ -454,7 +490,7 @@
     },
     {
       "cod": "REZ_ISSR",
-      "pagini": 11,
+      "pagini": 12,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
@@ -479,7 +515,7 @@
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 2,
-      "unitati_total": 2,
+      "unitati_total": 3,
       "amprente": {
         "ro": {
           "C13": "e4b74e3c0a9977a6",
@@ -489,7 +525,7 @@
     },
     {
       "cod": "REZ_VSPG",
-      "pagini": 10,
+      "pagini": 11,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
@@ -514,7 +550,7 @@
       },
       "an_universitar": "2026–2027",
       "unitati_publicate": 2,
-      "unitati_total": 2,
+      "unitati_total": 3,
       "amprente": {
         "ro": {
           "C07": "9abcea063990ca05",
