@@ -1,9 +1,9 @@
 {
-  "construit": "2026-11-18",
+  "construit": "2026-11-19",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
-      "pagini": 33,
+      "pagini": 34,
       "widgets": 8,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 558,
+      "afirmatii_publicate": 579,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -294,7 +294,7 @@
     },
     {
       "cod": "SPM_MGVI",
-      "pagini": 96,
+      "pagini": 98,
       "widgets": 9,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca, Facultatea de Medicină",
@@ -306,7 +306,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 761,
+      "afirmatii_publicate": 796,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -386,7 +386,7 @@
         "ro": "Atestatul de management al serviciilor de sănătate, Modulul 1 (8 ore de curs)",
         "en": "Health Services Management Certificate, Module 1"
       },
-      "afirmatii_publicate": 22,
+      "afirmatii_publicate": 29,
       "titlu": {
         "ro": "Sănătate publică, demografie și epidemiologie",
         "en": "Public Health, Demography and Epidemiology"
@@ -400,11 +400,17 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 1,
+      "unitati_publicate": 7,
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "23e2861f507e4318"
+          "C01": "23e2861f507e4318",
+          "C02": "214ec8055206ce79",
+          "LP01": "f7ff2735ceca7945",
+          "LP02": "830b18ad43e01ee4",
+          "LP03": "6591395278b853a2",
+          "LP04": "6ebbd6b98ded8d6e",
+          "LP05": "18676cfc6e9bedd9"
         }
       }
     },
@@ -448,7 +454,7 @@
     },
     {
       "cod": "REZ_ISSR",
-      "pagini": 10,
+      "pagini": 11,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
