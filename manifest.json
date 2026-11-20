@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-19",
+  "construit": "2026-11-20",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -13,7 +13,7 @@
         "ro": "Asistență medicală generală, anul IV",
         "en": "General Nursing, Year IV"
       },
-      "afirmatii_publicate": 579,
+      "afirmatii_publicate": 648,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -59,7 +59,7 @@
         "ro": "Asistență medicală generală, Baia Mare, anul IV",
         "en": "General Nursing, Baia Mare, Year IV"
       },
-      "afirmatii_publicate": 39,
+      "afirmatii_publicate": 287,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management"
@@ -342,7 +342,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 796,
+      "afirmatii_publicate": 920,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -412,7 +412,7 @@
     },
     {
       "cod": "ATMS_M1",
-      "pagini": 14,
+      "pagini": 15,
       "widgets": 2,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
@@ -500,7 +500,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 42,
+      "afirmatii_publicate": 98,
       "titlu": {
         "ro": "Istoria sănătății publice și a sistemului de sănătate din România",
         "en": ""
@@ -525,7 +525,7 @@
     },
     {
       "cod": "REZ_VSPG",
-      "pagini": 11,
+      "pagini": 12,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
