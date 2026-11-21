@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-20",
+  "construit": "2026-11-21",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -253,7 +253,7 @@
         "ro": "Balneofiziokinetoterapie și recuperare, anul I",
         "en": "Physiotherapy and Rehabilitation, Year I"
       },
-      "afirmatii_publicate": 397,
+      "afirmatii_publicate": 405,
       "titlu": {
         "ro": "Educație pentru sănătate",
         "en": "Health Education"
@@ -412,7 +412,7 @@
     },
     {
       "cod": "ATMS_M1",
-      "pagini": 15,
+      "pagini": 16,
       "widgets": 2,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
@@ -422,7 +422,7 @@
         "ro": "Atestatul de management al serviciilor de sănătate, Modulul 1 (8 ore de curs)",
         "en": "Health Services Management Certificate, Module 1"
       },
-      "afirmatii_publicate": 29,
+      "afirmatii_publicate": 83,
       "titlu": {
         "ro": "Sănătate publică, demografie și epidemiologie",
         "en": "Public Health, Demography and Epidemiology"
@@ -535,7 +535,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 46,
+      "afirmatii_publicate": 67,
       "titlu": {
         "ro": "Viitorul sănătății publice globale",
         "en": ""
