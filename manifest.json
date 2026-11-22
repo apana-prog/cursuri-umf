@@ -557,6 +557,37 @@
           "C08": "c4bdc711796d91e0"
         }
       }
+    },
+    {
+      "cod": "OPT_DOCTORCEO",
+      "pagini": 8,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Medicină, anul V, semestrul I — disciplină opțională",
+        "en": "[TO COMPLETE]"
+      },
+      "afirmatii_publicate": 0,
+      "titlu": {
+        "ro": "Doctor CEO: Cum supraviețuiești și conduci în sistemul care te va epuiza"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 0,
+      "unitati_total": 7,
+      "amprente": {
+        "ro": {}
+      }
     }
   ],
   "generator": "atelier-didactic/build_site.py"
