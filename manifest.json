@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-23",
+  "construit": "2026-11-24",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -462,7 +462,7 @@
         "ro": "Masteratul „Health Economics and Outcomes Research” (Economia sănătății și cercetarea rezultatelor clinice), anul I, semestrul I",
         "en": "Master's programme in Health Economics and Outcomes Research, year I, semester I"
       },
-      "afirmatii_publicate": 70,
+      "afirmatii_publicate": 85,
       "titlu": {
         "ro": "Planificarea în sănătate",
         "en": "Planning for Health"
@@ -477,14 +477,16 @@
         "en": "How health services are planned for a population and for an organisation: what planning is and who does it, the social and health system context in Romania, the need, demand and utilisation of services, community needs assessment, the planning process and the planning audit, the business plan, strategic and marketing planning. Four modules of 4 hours each (two in the classroom, two online), each built around a single case; the practical activities, individual and in teams, take place outside class hours, with mentoring on request."
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 1,
+      "unitati_publicate": 2,
       "unitati_total": 7,
       "amprente": {
         "ro": {
-          "C01": "bdd6931e02fd6242"
+          "C01": "bdd6931e02fd6242",
+          "C02": "e1ffa57313961b00"
         },
         "en": {
-          "C01": "eb54294820d91282"
+          "C01": "eb54294820d91282",
+          "C02": "7cff367f218ecb3e"
         }
       }
     },
@@ -514,12 +516,13 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 2,
+      "unitati_publicate": 3,
       "unitati_total": 4,
       "amprente": {
         "ro": {
           "C13": "e4b74e3c0a9977a6",
-          "C14": "e97956e70005c172"
+          "C14": "e97956e70005c172",
+          "C15": "dbc73bb823b4c654"
         }
       }
     },
