@@ -342,7 +342,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 921,
+      "afirmatii_publicate": 920,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -365,7 +365,7 @@
         "ro": {
           "C01": "f1e9b1f9bbf76e80",
           "LP01": "b0af482ace50516d",
-          "C02": "91ea9312bf7b5a3e",
+          "C02": "52648e38ee32317e",
           "LP02": "be701f0209e67211",
           "C03": "51f0d2fdd7c15d6c",
           "LP03": "9d7fa19359ac20d7",
@@ -388,7 +388,7 @@
         "fr": {
           "C01": "7dd9e4e0933a1d6a",
           "LP01": "2161cf9e901a7738",
-          "C02": "2f577253983220ec",
+          "C02": "2a4a7105702181e7",
           "LP02": "0147deb6f149597f",
           "C03": "66374c07868ab237",
           "LP03": "d5532491a3c8e225",
@@ -591,6 +591,39 @@
       "unitati_total": 7,
       "amprente": {
         "ro": {}
+      }
+    },
+    {
+      "cod": "OPT_BIGPHARMA",
+      "pagini": 8,
+      "widgets": 0,
+      "institutie": {
+        "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
+        "en": "“Iuliu Hațieganu” University of Medicine and Pharmacy, Cluj-Napoca"
+      },
+      "program": {
+        "ro": "Medicină, anul II — disciplină opțională",
+        "en": "[TO COMPLETE]"
+      },
+      "afirmatii_publicate": 1,
+      "titlu": {
+        "ro": "Big Pharma: Salvator sau Prădător? Economia și Etica Medicamentelor Tale"
+      },
+      "limbi": [
+        "ro"
+      ],
+      "limba_canonica": "ro",
+      "descriere": {
+        "ro": "",
+        "en": ""
+      },
+      "an_universitar": "2026–2027",
+      "unitati_publicate": 1,
+      "unitati_total": 2,
+      "amprente": {
+        "ro": {
+          "C02": "c8233ec1483c9f40"
+        }
       }
     }
   ],
