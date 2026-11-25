@@ -595,7 +595,7 @@
     },
     {
       "cod": "OPT_BIGPHARMA",
-      "pagini": 8,
+      "pagini": 10,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
@@ -605,7 +605,7 @@
         "ro": "Medicină, anul II — disciplină opțională",
         "en": "[TO COMPLETE]"
       },
-      "afirmatii_publicate": 1,
+      "afirmatii_publicate": 91,
       "titlu": {
         "ro": "Big Pharma: Salvator sau Prădător? Economia și Etica Medicamentelor Tale"
       },
@@ -618,11 +618,12 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 1,
+      "unitati_publicate": 2,
       "unitati_total": 2,
       "amprente": {
         "ro": {
-          "C02": "c8233ec1483c9f40"
+          "C01": "b18bca40e93f0f3c",
+          "C02": "b178d65c958b04be"
         }
       }
     }
