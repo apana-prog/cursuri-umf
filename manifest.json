@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-24",
+  "construit": "2026-11-25",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -342,7 +342,7 @@
         "en": "Medicine, Year VI",
         "fr": "Médecine, 6e année"
       },
-      "afirmatii_publicate": 920,
+      "afirmatii_publicate": 921,
       "titlu": {
         "ro": "Sănătate publică și management",
         "en": "Public Health and Management",
@@ -363,14 +363,14 @@
       "unitati_total": 21,
       "amprente": {
         "ro": {
-          "C01": "9be554a760b2ab24",
+          "C01": "f1e9b1f9bbf76e80",
           "LP01": "b0af482ace50516d",
           "C02": "91ea9312bf7b5a3e",
           "LP02": "be701f0209e67211",
           "C03": "51f0d2fdd7c15d6c",
           "LP03": "9d7fa19359ac20d7",
           "C04": "6210de95c27ecb7e",
-          "LP04": "707f7adb4c589b78",
+          "LP04": "b6a0dd2c1cea4711",
           "C05": "50b1cc3e57f7e27b",
           "LP05": "91019d9a9c8d6f09",
           "C06": "9a2fcc21920924a6",
@@ -386,14 +386,14 @@
           "C14": "d744df78bc4c40fd"
         },
         "fr": {
-          "C01": "c6ea4229569b9b6e",
+          "C01": "7dd9e4e0933a1d6a",
           "LP01": "2161cf9e901a7738",
           "C02": "2f577253983220ec",
           "LP02": "0147deb6f149597f",
           "C03": "66374c07868ab237",
           "LP03": "d5532491a3c8e225",
           "C04": "5111bbc625f83e38",
-          "LP04": "2930b63a0938cc5d",
+          "LP04": "e7a3ce6e814cff15",
           "C05": "723210955a250c45",
           "LP05": "82993f80b12c2b29",
           "C06": "b81efea744a52872",
@@ -482,11 +482,11 @@
       "amprente": {
         "ro": {
           "C01": "bdd6931e02fd6242",
-          "C02": "e1ffa57313961b00"
+          "C02": "03f582ad45ff3a09"
         },
         "en": {
           "C01": "eb54294820d91282",
-          "C02": "7cff367f218ecb3e"
+          "C02": "9ae1b4a7f8184d0d"
         }
       }
     },
@@ -522,7 +522,7 @@
         "ro": {
           "C13": "e4b74e3c0a9977a6",
           "C14": "e97956e70005c172",
-          "C15": "dbc73bb823b4c654"
+          "C15": "319508808136f1d7"
         }
       }
     },
@@ -538,7 +538,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 67,
+      "afirmatii_publicate": 75,
       "titlu": {
         "ro": "Viitorul sănătății publice globale",
         "en": ""
@@ -552,12 +552,13 @@
         "en": ""
       },
       "an_universitar": "2026–2027",
-      "unitati_publicate": 2,
+      "unitati_publicate": 3,
       "unitati_total": 4,
       "amprente": {
         "ro": {
           "C07": "9abcea063990ca05",
-          "C08": "9c28531a29e531c0"
+          "C08": "9c28531a29e531c0",
+          "C09": "c050c6809fe9d159"
         }
       }
     },
