@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-26",
+  "construit": "2026-11-27",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -502,7 +502,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 98,
+      "afirmatii_publicate": 136,
       "titlu": {
         "ro": "Istoria sănătății publice și a sistemului de sănătate din România",
         "en": ""
@@ -528,7 +528,7 @@
     },
     {
       "cod": "REZ_VSPG",
-      "pagini": 13,
+      "pagini": 14,
       "widgets": 0,
       "institutie": {
         "ro": "Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca",
@@ -595,7 +595,7 @@
     },
     {
       "cod": "OPT_BIGPHARMA",
-      "pagini": 11,
+      "pagini": 12,
       "widgets": 0,
       "institutie": {
         "ro": "UMF „Iuliu Hațieganu” Cluj-Napoca",
