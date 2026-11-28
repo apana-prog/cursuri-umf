@@ -1,5 +1,5 @@
 {
-  "construit": "2026-11-27",
+  "construit": "2026-11-28",
   "discipline": [
     {
       "cod": "SPM_AMGIV",
@@ -538,7 +538,7 @@
         "ro": "Curs pentru medicii rezidenți (sănătate publică și management, igienă, epidemiologie)",
         "en": ""
       },
-      "afirmatii_publicate": 75,
+      "afirmatii_publicate": 96,
       "titlu": {
         "ro": "Viitorul sănătății publice globale",
         "en": ""
@@ -605,7 +605,7 @@
         "ro": "Medicină, anul II — disciplină opțională",
         "en": "[TO COMPLETE]"
       },
-      "afirmatii_publicate": 91,
+      "afirmatii_publicate": 157,
       "titlu": {
         "ro": "Big Pharma: Salvator sau Prădător? Economia și Etica Medicamentelor Tale"
       },
